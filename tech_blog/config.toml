@@ -1,0 +1,8 @@
+baseURL = "https://calumjackson.github.io/techblog/"
+languageCode = "en-us"
+title = "Tech Blog"
+publishDir = "../build"
+theme = "hugo-theme-learn"
+canonifyURLs = "true"
+enableEmoji = "true"
+favicon = "images/site_images/campfire.png"
