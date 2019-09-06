@@ -2,6 +2,8 @@
 title: "Qcon Notes"
 date: 2019-09-04T17:32:53+01:00
 draft: false
+weight: 2
+
 ---
 
 

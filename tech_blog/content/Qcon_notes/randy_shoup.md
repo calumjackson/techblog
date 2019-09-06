@@ -1,7 +1,7 @@
 ---
 title: "Randy Shoup"
 date: 2019-08-31T17:38:47+01:00
-draft: true
+draft: false
 weight: 1
 ---
 
