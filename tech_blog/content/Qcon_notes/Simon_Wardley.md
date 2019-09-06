@@ -91,4 +91,4 @@ Leading Edge Forum also run a course to learn at https://learn.leadingedgeforum.
 
 Video Link Here:
 
-https://www.infoq.com/presentations/autonomy-trust-pragmacy-teams/?itm_source=infoq&itm_medium=QCon_EarlyAccessVideos&itm_campaign=QConLondon2019
+hhttps://www.infoq.com/presentations/stuational-awareness/?itm_source=infoq&itm_medium=QCon_EarlyAccessVideos&itm_campaign=QConLondon2019
