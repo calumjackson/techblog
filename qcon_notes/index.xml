@@ -11,5 +11,27 @@
 	<atom:link href="https://calumjackson.github.io/techblog/qcon_notes/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Randy Shoup</title>
+      <link>https://calumjackson.github.io/techblog/qcon_notes/randy_shoup/</link>
+      <pubDate>Sat, 31 Aug 2019 17:38:47 +0100</pubDate>
+      
+      <guid>https://calumjackson.github.io/techblog/qcon_notes/randy_shoup/</guid>
+      <description>Randy took the time to talk through High Performance Culture, and how to build and scale it. This was my favourite talk of the conference.
+Randy went through a lot of material verrry quickly, but all of it was super interesting.
+Initially he basically talked through the accelerate [accelerate] book at a super high level, and the key notes he took which lead into his points in the rest of the talk.</description>
+    </item>
+    
+    <item>
+      <title>Strategy by feeling Stones - Simon Wardley</title>
+      <link>https://calumjackson.github.io/techblog/qcon_notes/simon_wardley/</link>
+      <pubDate>Sat, 31 Aug 2019 17:38:47 +0100</pubDate>
+      
+      <guid>https://calumjackson.github.io/techblog/qcon_notes/simon_wardley/</guid>
+      <description>Hadn&amp;rsquo;t seen this presentation, but had heard it was good from colleagues. Having watched a few times, he is a very confident talker who keeps you engaged at all times.
+The main thing I took away from the talk was how clear and concise his observations, comments, and articulations were. It was a well put together piece, which has probably been practiced across the land!
+Whether this was due to the Wardley Maps or his own charisma, I can&amp;rsquo;t comment, but imagine it would be both.</description>
+    </item>
+    
   </channel>
 </rss>
