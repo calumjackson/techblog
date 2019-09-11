@@ -1,5 +1,5 @@
 ---
-title: "Qcon Notes"
+title: "Qcon Ramblings"
 date: 2019-09-04T17:32:53+01:00
 draft: false
 weight: 2
@@ -23,5 +23,7 @@ https://qconlondon.com/schedule/london2019/tabular
 Speakers who I found most engaging and intersting to listen to were:
 
 * Randy Shoup (We Work, Google)
+
+* Simon Wardley (LEF, Government, inventor of the _Wardley Map_)
 
 * Andy Walker (Skyscanner)

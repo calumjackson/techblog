@@ -1,5 +1,5 @@
 ---
-title: "Strategy by feeling Stones - Simon Wardley"
+title: "Simon Wardley: Maps"
 date: 2019-08-31T17:38:47+01:00
 draft: false
 weight: 3
