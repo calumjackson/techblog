@@ -6,6 +6,7 @@ weight: 2
 
 ---
 
+--- 
 
 Having gone to QCON back in the first quarter of the year, I haven't spent much time to reflect on what I picked up at the conference.
 

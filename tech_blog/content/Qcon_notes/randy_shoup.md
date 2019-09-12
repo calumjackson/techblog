@@ -5,6 +5,8 @@ draft: false
 weight: 1
 ---
 
+---
+
 Randy took the time to talk through **High Performance Culture**, and how to build and scale it. This was my favourite talk of the conference.
 
 Randy went through a lot of material *verrry* quickly, but all of it was super interesting.

@@ -2,7 +2,9 @@
 title: "Andy Walker: Zombie Apocalypse"
 date: 2019-09-08T15:59:47+01:00
 draft: false
-weight: 5
+weight: 2
+---
+
 ---
 
 The naming of this presentation initially put me off, as it seemed somewhat outside of the nature of the conference. However, *How to Survive the Zombie Apocalypse* ended up being a useful forewarning & guide on how to manage oneself throughout your career, and how to help others with this.

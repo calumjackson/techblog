@@ -5,6 +5,8 @@ draft: false
 weight: 3
 ---
 
+---
+
 Hadn't seen this presentation, but had heard it was good from colleagues. Having watched a few times, he is a _very_ confident talker who keeps you engaged at all times.
 
 The main thing I took away from the talk was how clear and concise his observations, comments, and articulations were. It was a well put together piece, which has probably been practiced across the land!
