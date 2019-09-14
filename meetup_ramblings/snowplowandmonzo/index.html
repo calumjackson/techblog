@@ -9,7 +9,7 @@
 
     <link rel="icon" href="https://calumjackson.github.io/techblog/images/favicon.png" type="image/png">
 
-    <title>Randy Shoup: Performance Culture :: Tech Blog</title>
+    <title>Data Analytics: 12/09 :: Tech Blog</title>
 
     
     <link href="https://calumjackson.github.io/techblog/css/nucleus.css?1568455154" rel="stylesheet">
@@ -34,7 +34,7 @@
     
 
   </head>
-  <body class="" data-url="/qcon_notes/randy_shoup/">
+  <body class="" data-url="/meetup_ramblings/snowplowandmonzo/">
     <nav id="sidebar" class="">
 
 
@@ -99,7 +99,7 @@
   
     
     <li data-nav-id="/qcon_notes/" title="Qcon Ramblings" class="dd-item 
-        parent
+        
         
         
         ">
@@ -123,7 +123,7 @@
  
   
     
-      <li data-nav-id="/qcon_notes/randy_shoup/" title="Randy Shoup: Performance Culture" class="dd-item active">
+      <li data-nav-id="/qcon_notes/randy_shoup/" title="Randy Shoup: Performance Culture" class="dd-item ">
         <a href="https://calumjackson.github.io/techblog/qcon_notes/randy_shoup/">
         Randy Shoup: Performance Culture
         
@@ -226,7 +226,7 @@
   
     
     <li data-nav-id="/meetup_ramblings/" title="Meetup Ramblings" class="dd-item 
-        
+        parent
         
         
         ">
@@ -250,7 +250,7 @@
  
   
     
-      <li data-nav-id="/meetup_ramblings/snowplowandmonzo/" title="Data Analytics: 12/09" class="dd-item ">
+      <li data-nav-id="/meetup_ramblings/snowplowandmonzo/" title="Data Analytics: 12/09" class="dd-item active">
         <a href="https://calumjackson.github.io/techblog/meetup_ramblings/snowplowandmonzo/">
         Data Analytics: 12/09
         
@@ -319,7 +319,7 @@
             
           
           
-            <a href='https://calumjackson.github.io/techblog/'>index</a> > <a href='https://calumjackson.github.io/techblog/qcon_notes/'>Qcon Ramblings</a> > Randy Shoup: Performance Culture
+            <a href='https://calumjackson.github.io/techblog/'>index</a> > <a href='https://calumjackson.github.io/techblog/meetup_ramblings/'>Meetup Ramblings</a> > Data Analytics: 12/09
           
          
           
@@ -338,17 +338,9 @@
 <ul>
 <li>
 <ul>
-<li><a href="#key-points">Key Points</a>
-<ul>
-<li><a href="#google-review">Google Review</a></li>
-<li><a href="#full-stack-teams">Full Stack teams</a></li>
-<li><a href="#what-problem-are-you-trying-to-solve">What Problem are you trying to Solve</a></li>
-<li><a href="#building-the-wrong-thing-is-the-biggest-waste-in-software-development-poppendick">Building the Wrong Thing is the biggest waste in Software Development. [Poppendick]</a></li>
-<li><a href="#a-problem-well-stated-is-a-problem-half-solved-kettering">A Problem Well Stated is a Problem half solved.[Kettering]</a></li>
-<li><a href="#don-t-have-time-to-do-it-right-do-you-have-time-to-do-it-twice">Don&rsquo;t have time to do it right! Do you have time to do it twice?</a></li>
-<li><a href="#the-culture-of-an-organisation-is-shaped-by-the-worst-behaviour-a-leader-will-tolerate">The culture of an organisation is shaped by the worst behaviour a leader will tolerate.</a></li>
-<li><a href="#if-you-can-t-change-your-organisation-change-your-organisation">If you can&rsquo;t change your organisation, change your organisation.</a></li>
-</ul></li>
+<li><a href="#snow-plow">Snow Plow</a></li>
+<li><a href="#monzo">Monzo</a></li>
+<li><a href="#pgaudit">pgAudit</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -368,7 +360,7 @@
           
             <h1>
               
-              Randy Shoup: Performance Culture
+              Data Analytics: 12/09
             </h1>
           
 
@@ -380,65 +372,55 @@
 
 <hr />
 
-<p>Randy took the time to talk through <strong>High Performance Culture</strong>, and how to build and scale it. This was my favourite talk of the conference.</p>
+<p><strong>My. <em>Second.</em> Meetup.</strong></p>
 
-<p>Randy went through a lot of material <em>verrry</em> quickly, but all of it was super interesting.</p>
-
-<p>Initially he basically talked through the accelerate [accelerate] book at a <em>super</em> high level, and the key notes he took which lead into his points in the rest of the talk.</p>
-
-<h3 id="key-points">Key Points</h3>
-
-<h4 id="google-review">Google Review</h4>
-
-<p><em>Project Aristotle</em> - how to differentiate high performing vs low performing:</p>
+<p>This meet-up was organised by the <a href="https://www.meetup.com/DataCouncil-AI-London-Data-Engineering-and-Science/">Data Council.ai</a> team, and had a couple of switched on presenters:</p>
 
 <ul>
-<li><p>Interpersonal risk taking &amp; safety at work was the largest contributor to high performing teams.</p></li>
-
-<li><p>This enabled collaboration</p></li>
-
-<li><p>More about people being allowed to being themselves rather than risks of choices in projects etc.</p></li>
-
-<li><p>This allowed people to collaborate and disagree, with lots of open collaboration with other people.</p></li>
-
-<li><p>When <em>given the <strong>common</strong> context</em>, and when we say what are goals &amp; priorities are, people are much more likely to agree</p></li>
+<li>Snow Plow</li>
+<li>Monzo</li>
+<li>pgAudit</li>
 </ul>
 
-<h4 id="full-stack-teams">Full Stack teams</h4>
+<h3 id="snow-plow">Snow Plow</h3>
 
-<p>Currently teams are split between product/dev/test etc, whereas a good model is to build <em>full stack teams</em> where the team is split by a domain, with analysts / dev / test within that all co-operating within the same space.</p>
+<p>The first of many Stephen&rsquo;s on stage this evening was from Snow Plow (the meetup sponsor), who are a data analytics <em>platform</em> (still not sure how well used that term is generally - is this something that is used to build other services on? Maybe I should write down <em>what being a platform means</em> to me).</p>
 
-<p>Give each team ownership of the roadmaps etc, having goals outset from the beginning.</p>
+<p>My vague understanding of the operation of this was that Snow Plow is a data analytics platform which allows eventing to be almost instantly tracked and analysed within the data warehouses. Having side-<em>tracked</em> myself reading their <a href="https://github.com/snowplow/snowplow">github pages</a>, I can see they are based around a general event tracking and their individuality comes from being an open source, loosely coupled architecture (read: cool, well structured for microservices architecture).</p>
 
-<p>These teams own their domain end-to-end, so maintain etc and don&rsquo;t split the work between teams of maintaining old code and some working on new _sexy<em>stuff</em>.</p>
+<p>The actual talk was from a lead engineer, who was pushing the idea that tracking testing is as important as any other testing if you are to be a data analytics company with any <strong>integrity</strong>. The validation of tracking can be built into testing automation much like any other functionality, and in turn built into your CI pipeline, such that you get a constant valid stream of data hitting your warehouse - with the obvious benefits of not missing out on precious data, and more importantly not shifting <strong>bad data</strong> 😱 into your warehouse. This all seemed pretty reasonable, and got me thinking that is this the evolution of test driven development, moreover is this an extenstion of TDD or is it a new TDD - Tracking Driven Development? If data is a main output of your service, where does that sit in importance to actual functionality 😧.</p>
 
-<h4 id="what-problem-are-you-trying-to-solve">What Problem are you trying to Solve</h4>
+<p>Unfortunately I asked a question around whether this is a extension of TDD or if it&rsquo;s own TrackingDD, but lead into the philosophical aspects I was expecting didn&rsquo;t really pay off (I was probably being rather gratuitous to myself to expect it to 😂), but is something I might keep thinking about&hellip;</p>
 
-<p>Ask when a requirement comes in which is a solution, ask what the actual problem we are trying to solve. People live in their own boundaries of design, where they may not have all the information on how to best solve the actual problem.</p>
+<h3 id="monzo">Monzo</h3>
 
-<h4 id="building-the-wrong-thing-is-the-biggest-waste-in-software-development-poppendick">Building the Wrong Thing is the biggest waste in Software Development. [Poppendick]</h4>
+<p>I don&rsquo;t think this company need an introduction (unless your reading this from a non-UK background - they&rsquo;re a startup tech bank). They seem to have a lot of code in <a href="https://github.com/monzo">github</a>, their <a href="https://docs.monzo.com/">open API</a> stuff looks interesting and a good use of online documentation (is this auto generated via Slate????), so I might have a dig around in there to see how a well revered tech start up does things 😆.</p>
 
-<p>You may have well have been on holiday if the thing you built doesn&rsquo;t solve the problem.</p>
+<p>The onus of the talk here was around Monzo migrating to <a href="https://docs.getdbt.com/">dbt</a> (data build tool), and how that is really cool and useful. dbt is open source data transformation layer for analytics, which provides an abstraction in the coding which allows for essentially schemaless(?) data structures, such that the underlying queries can be restructured without affecting the output.</p>
 
-<h4 id="a-problem-well-stated-is-a-problem-half-solved-kettering">A Problem Well Stated is a Problem half solved.[Kettering]</h4>
+<p><img src="https://calumjackson.github.io/techblog/images/meetup_pics/product.svg" alt="transformation" /></p>
 
-<p>Understanding the problem deeply means that usually the path to solving the problem will become more clear, as the routes through the issue are substantiated, and reduces the amount of unforeseen consequences.</p>
+<p>The view below shows how the queries are built within the code at a high level. To my mind this is essentially an extension of database views, but probably with a bit less of the hassle maintaining changes. This is a <strong>compiled language</strong> rather than interpreted, which gives the benefit of noticing any issues at deployment rather than runtime, with the tradeoff of.. I&rsquo;m not sure, actually being more tightly coupled to the datasets below? Is that how it works 🙈</p>
 
-<h4 id="don-t-have-time-to-do-it-right-do-you-have-time-to-do-it-twice">Don&rsquo;t have time to do it right! Do you have time to do it twice?</h4>
+<p><img src="https://calumjackson.github.io/techblog/images/meetup_pics/transform.svg" alt="build" /></p>
 
-<p>Talking about people saying they don&rsquo;t have time to do a fix properly, it basically means we have to do it twice (creating an instant technical debt).</p>
+<p>After talking with a few people later, it sounds like dbt deals with issues like missing columns by just filling them as blank, which is either a good thing for preventing code failures, or bad as it doesn&rsquo;t guarantee data consistency if those columns are being used in a join. I guess a limitation of the system which the developers need to understand!</p>
 
-<p>Would we rather do a small number of great things or a large number of average things?</p>
+<p>Finally, a useful feature was the ability to <strong>tag</strong> the table / view abstractions, such that they could tagged with personally identifiable information (pii), and a data analytic graph could be automatically built to show the tagged dependencies in a top level query to give you a view of what kind of data exists within it.</p>
 
-<h4 id="the-culture-of-an-organisation-is-shaped-by-the-worst-behaviour-a-leader-will-tolerate">The culture of an organisation is shaped by the worst behaviour a leader will tolerate.</h4>
+<p>On the actual migration points, Monzo mentioned a few points they found useful</p>
 
-<h4 id="if-you-can-t-change-your-organisation-change-your-organisation">If you can&rsquo;t change your organisation, change your organisation.</h4>
+<ul>
+<li><p>Don&rsquo;t mix re-factoring with code migration - it causes hassle everywhere rather than isolating it.</p></li>
 
-<p>Move!</p>
+<li><p>Quick is better, allows you to get back to BAU quicker and deal with issues via BAU.</p></li>
 
-<p>Video Link Here:</p>
+<li><p>Time is hard to get from people. Monzo had a team of ~40 people working on it but not at full capacity. Documentation was key.</p></li>
+</ul>
 
-<p><a href="https://www.infoq.com/presentations/autonomy-trust-pragmacy-teams/?itm_source=infoq&amp;itm_medium=QCon_EarlyAccessVideos&amp;itm_campaign=QConLondon2019">https://www.infoq.com/presentations/autonomy-trust-pragmacy-teams/?itm_source=infoq&amp;itm_medium=QCon_EarlyAccessVideos&amp;itm_campaign=QConLondon2019</a></p>
+<h3 id="pgaudit">pgAudit</h3>
+
+<p>I didn&rsquo;t do this talk justice as I was distracted having lost a tooth filling in the break (note to self, <em>pizza is bad for learning</em>). From what I listened to this was a tool to verbosely audit whilst creating a standardised auditing format.</p>
 
 
 <footer class=" footline" >
@@ -496,7 +478,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -509,7 +490,6 @@
             
             
                 
-                    
                     
                 
                 
@@ -526,9 +506,6 @@
             
             
                 
-                    
-                        
-                        
                     
                 
                 
@@ -597,6 +574,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -609,6 +587,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -633,10 +612,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="https://calumjackson.github.io/techblog/qcon_notes/" title="Qcon Ramblings"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="https://calumjackson.github.io/techblog/meetup_ramblings/" title="Meetup Ramblings"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="https://calumjackson.github.io/techblog/qcon_notes/andy_walker/" title="Andy Walker: Zombie Apocalypse" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="https://calumjackson.github.io/techblog/home/" title="Welcome" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meetup Ramblings on Tech Blog</title>
+    <link>https://calumjackson.github.io/techblog/meetup_ramblings/</link>
+    <description>Recent content in Meetup Ramblings on Tech Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Sep 2019 17:38:47 +0100</lastBuildDate>
+    
+	<atom:link href="https://calumjackson.github.io/techblog/meetup_ramblings/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data Analytics: 12/09</title>
+      <link>https://calumjackson.github.io/techblog/meetup_ramblings/snowplowandmonzo/</link>
+      <pubDate>Fri, 13 Sep 2019 15:59:47 +0100</pubDate>
+      
+      <guid>https://calumjackson.github.io/techblog/meetup_ramblings/snowplowandmonzo/</guid>
+      <description>My. Second. Meetup.
+This meet-up was organised by the Data Council.ai team, and had a couple of switched on presenters:
+ Snow Plow Monzo pgAudit  Snow Plow The first of many Stephen&amp;rsquo;s on stage this evening was from Snow Plow (the meetup sponsor), who are a data analytics platform (still not sure how well used that term is generally - is this something that is used to build other services on?</description>
+    </item>
+    
+  </channel>
+</rss>
