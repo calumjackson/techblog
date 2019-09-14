@@ -9,7 +9,7 @@ weight: 1
 
 **My. _Second._ Meetup.**
 
-This meet-up was organised by the [Data Council.ai](https://www.meetup.com/DataCouncil-AI-London-Data-Engineering-and-Science/) team, and had a few _hot_ presenters:
+This meet-up was organised by the [Data Council.ai](https://www.meetup.com/DataCouncil-AI-London-Data-Engineering-and-Science/) team, and had a couple of switched on presenters:
 
 * Snow Plow
 * Monzo
@@ -30,12 +30,26 @@ Unfortunately I asked a question around whether this is a extension of TDD or if
 
 I don't think this company need an introduction (unless your reading this from a non-UK background - they're a startup tech bank). They seem to have a lot of code in [github](https://github.com/monzo), their [open API](https://docs.monzo.com/) stuff looks interesting and a good use of online documentation (is this auto generated via Slate????), so I might have a dig around in there to see how a well revered tech start up does things :laughing:.
 
-The onus of the talk here was around Monzo migrating to [dbt](https://docs.getdbt.com/) (data build tool)
+The onus of the talk here was around Monzo migrating to [dbt](https://docs.getdbt.com/) (data build tool), and how that is really cool and useful. dbt is open source data transformation layer for analytics, which provides an abstraction in the coding which allows for essentially schemaless(?) data structures, such that the underlying queries can be restructured without affecting the output.
 
+![transformation](/images/meetup_pics/product.svg)
 
+The view below shows how the queries are built within the code at a high level. To my mind this is essentially an extension of database views, but probably with a bit less of the hassle maintaining changes. This is a **compiled language** rather than interpreted, which gives the benefit of noticing any issues at deployment rather than runtime, with the tradeoff of.. I'm not sure, actually being more tightly coupled to the datasets below? Is that how it works :see_no_evil:
 
+![build](/images/meetup_pics/transform.svg)
 
+After talking with a few people later, it sounds like dbt deals with issues like missing columns by just filling them as blank, which is either a good thing for preventing code failures, or bad as it doesn't guarantee data consistency if those columns are being used in a join. I guess a limitation of the system which the developers need to understand!
+
+Finally, a useful feature was the ability to **tag** the table / view abstractions, such that they could tagged with personally identifiable information (pii), and a data analytic graph could be automatically built to show the tagged dependencies in a top level query to give you a view of what kind of data exists within it.
+
+On the actual migration points, Monzo mentioned a few points they found useful
+
+* Don't mix re-factoring with code migration - it causes hassle everywhere rather than isolating it.
+
+* Quick is better, allows you to get back to BAU quicker and deal with issues via BAU.
+
+* Time is hard to get from people. Monzo had a team of ~40 people working on it but not at full capacity. Documentation was key.
 
 ### pgAudit
 
-I didn't do this talk justice as I was distracted having lost a filling in the break. From what I listened to this was a tool to verbosely audit whilst creating a standardised auditing format.
+I didn't do this talk justice as I was distracted having lost a tooth filling in the break (note to self, _pizza is bad for learning_). From what I listened to this was a tool to verbosely audit whilst creating a standardised auditing format.
