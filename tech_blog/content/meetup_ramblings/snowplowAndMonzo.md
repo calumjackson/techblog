@@ -2,7 +2,7 @@
 title: "Data Analytics: 12/09"
 date: 2019-09-13T15:59:47+01:00
 draft: false
-weight: 1
+weight: 2
 ---
 
 ---

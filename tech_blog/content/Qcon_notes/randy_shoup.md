@@ -57,15 +57,12 @@ Would we rather do a small number of great things or a large number of average t
 
 #### The culture of an organisation is shaped by the worst behaviour a leader will tolerate.
 
+Self explanatory? People push to the boundaries, so the the more they are unbounded, the more likely to bring other people into that realm.
+
 #### If you can't change your organisation, change your organisation.
 
-Move!
+Move somewhere else!
 
 
 
-
-
-
-Video Link Here:
-
-https://www.infoq.com/presentations/autonomy-trust-pragmacy-teams/?itm_source=infoq&itm_medium=QCon_EarlyAccessVideos&itm_campaign=QConLondon2019
+[Video Link](https://www.infoq.com/presentations/autonomy-trust-pragmacy-teams/?itm_source=infoq&itm_medium=QCon_EarlyAccessVideos&itm_campaign=QConLondon2019)

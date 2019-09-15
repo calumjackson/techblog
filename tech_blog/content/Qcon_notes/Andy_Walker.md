@@ -48,5 +48,4 @@ Finally, he mentioned the importance of prioritisation and focus in the sense of
 If a major incident has occurred, you can't worry about how you got there, you need to focus on the problem you have now, and how you are going to solve it. History can teach us important lessons on how to prevent things going wrong, but is less helpful in the moment of it going wrong (unless it has gone wrong similarly before and you still haven't fixed it :laughing:)
 
 
-Video Link:
-https://www.infoq.com/presentations/career-skills-self-management/?itm_source=infoq&itm_medium=QCon_EarlyAccessVideos&itm_campaign=QConLondon2019
+[Video Link](https://www.infoq.com/presentations/career-skills-self-management/?itm_source=infoq&itm_medium=QCon_EarlyAccessVideos&itm_campaign=QConLondon2019)

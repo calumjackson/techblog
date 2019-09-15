@@ -91,6 +91,4 @@ Leading Edge Forum also run a course to learn at https://learn.leadingedgeforum.
 
 
 
-Video Link Here:
-
-hhttps://www.infoq.com/presentations/stuational-awareness/?itm_source=infoq&itm_medium=QCon_EarlyAccessVideos&itm_campaign=QConLondon2019
+[Video Link](https://www.infoq.com/presentations/stuational-awareness/?itm_source=infoq&itm_medium=QCon_EarlyAccessVideos&itm_campaign=QConLondon2019)

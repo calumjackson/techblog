@@ -41,6 +41,4 @@ Practice writing some simple code for that language. Then you will have an idea 
 * Go to user groups and meet people, ask them what they are doing, if their company does interesting things, if they have jobs etc. People are one of the best routes into other work.
 
 
-Video link:
-
-https://www.infoq.com/presentations/developer-survival-guide/?itm_source=infoq&itm_medium=QCon_EarlyAccessVideos&itm_campaign=QConLondon2019
+[Video link](https://www.infoq.com/presentations/developer-survival-guide/?itm_source=infoq&itm_medium=QCon_EarlyAccessVideos&itm_campaign=QConLondon2019)
