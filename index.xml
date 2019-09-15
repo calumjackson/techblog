@@ -12,14 +12,14 @@
     
     
     <item>
-      <title>Data Analytics: 12/09</title>
-      <link>https://calumjackson.github.io/techblog/meetup_ramblings/snowplowandmonzo/</link>
+      <title>Kubernetes: 05/09</title>
+      <link>https://calumjackson.github.io/techblog/meetup_ramblings/storageos/</link>
       <pubDate>Fri, 13 Sep 2019 15:59:47 +0100</pubDate>
       
-      <guid>https://calumjackson.github.io/techblog/meetup_ramblings/snowplowandmonzo/</guid>
-      <description>My. Second. Meetup.
-This meet-up was organised by the Data Council.ai team, and had a couple of switched on presenters:
- Snow Plow Monzo pgAudit  Snow Plow The first of many Stephen&amp;rsquo;s on stage this evening was from Snow Plow (the meetup sponsor), who are a data analytics platform (still not sure how well used that term is generally - is this something that is used to build other services on?</description>
+      <guid>https://calumjackson.github.io/techblog/meetup_ramblings/storageos/</guid>
+      <description>My. First. Meetup.
+I turned up to this as a lone ranger, without knowing what to really expect other than the possibility of free beer and pizza! The CodeNode I was aware of from a previous Worldpay &amp;ldquo;mini tech conference&amp;rdquo; back in 2017, and has a cool setup. Note: maybe we should encourage someone to do another tech conference.
+This meetup had been organised by Infrastructure as Code, under the Skills matter umbrella.</description>
     </item>
     
     <item>
@@ -31,6 +31,17 @@ This meet-up was organised by the Data Council.ai team, and had a couple of swit
       <description>Randy took the time to talk through High Performance Culture, and how to build and scale it. This was my favourite talk of the conference.
 Randy went through a lot of material verrry quickly, but all of it was super interesting.
 Initially he basically talked through the accelerate [accelerate] book at a super high level, and the key notes he took which lead into his points in the rest of the talk.</description>
+    </item>
+    
+    <item>
+      <title>Data Analytics: 12/09</title>
+      <link>https://calumjackson.github.io/techblog/meetup_ramblings/snowplowandmonzo/</link>
+      <pubDate>Fri, 13 Sep 2019 15:59:47 +0100</pubDate>
+      
+      <guid>https://calumjackson.github.io/techblog/meetup_ramblings/snowplowandmonzo/</guid>
+      <description>My. Second. Meetup.
+This meet-up was organised by the Data Council.ai team, and had a couple of switched on presenters:
+ Snow Plow Monzo pgAudit  Snow Plow The first of many Stephen&amp;rsquo;s on stage this evening was from Snow Plow (the meetup sponsor), who are a data analytics platform (still not sure how well used that term is generally - is this something that is used to build other services on?</description>
     </item>
     
     <item>
@@ -72,7 +83,7 @@ The majority of the talk was around picking out interesting articles, saving the
       <guid>https://calumjackson.github.io/techblog/qcon_notes/ben_sieglman/</guid>
       <description>Ben was an engineer at Google since the early years (2003),
 I didn&amp;rsquo;t really listen to this much
- Video Link: https://www.infoq.com/presentations/google-lessons-microservices/?itm_source=infoq&amp;amp;itm_medium=QCon_EarlyAccessVideos&amp;amp;itm_campaign=QConLondon2019</description>
+ Video Link</description>
     </item>
     
   </channel>

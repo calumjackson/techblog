@@ -9,7 +9,7 @@
 
     <link rel="icon" href="https://calumjackson.github.io/techblog/images/favicon.png" type="image/png">
 
-    <title>Qcon Ramblings :: Tech Blog</title>
+    <title>Kubernetes: 05/09 :: Tech Blog</title>
 
     
     <link href="https://calumjackson.github.io/techblog/css/nucleus.css?1568542849" rel="stylesheet">
@@ -34,7 +34,7 @@
     
 
   </head>
-  <body class="" data-url="/qcon_notes/">
+  <body class="" data-url="/meetup_ramblings/storageos/">
     <nav id="sidebar" class="">
 
 
@@ -99,8 +99,8 @@
   
     
     <li data-nav-id="/qcon_notes/" title="Qcon Ramblings" class="dd-item 
-        parent
-        active
+        
+        
         
         ">
       <a href="https://calumjackson.github.io/techblog/qcon_notes/">
@@ -226,7 +226,7 @@
   
     
     <li data-nav-id="/meetup_ramblings/" title="Meetup Ramblings" class="dd-item 
-        
+        parent
         
         
         ">
@@ -250,7 +250,7 @@
  
   
     
-      <li data-nav-id="/meetup_ramblings/storageos/" title="Kubernetes: 05/09" class="dd-item ">
+      <li data-nav-id="/meetup_ramblings/storageos/" title="Kubernetes: 05/09" class="dd-item active">
         <a href="https://calumjackson.github.io/techblog/meetup_ramblings/storageos/">
         Kubernetes: 05/09
         
@@ -334,7 +334,13 @@
             
           
           
-            <a href='https://calumjackson.github.io/techblog/'>index</a> > Qcon Ramblings
+            
+            
+          
+          
+            <a href='https://calumjackson.github.io/techblog/'>index</a> > <a href='https://calumjackson.github.io/techblog/meetup_ramblings/'>Meetup Ramblings</a> > Kubernetes: 05/09
+          
+         
           
          
           
@@ -353,12 +359,13 @@
 <ul>
 <li>
 <ul>
-<li><a href="#schedules">Schedules</a></li>
-<li><a href="#general-thoughts">General Thoughts</a>
+<li><a href="#kubernetes-in-a-nutshell">Kubernetes in a nutshell</a></li>
+</ul></li>
+<li><a href="#storageos-https-skillsmatter-com-skillscasts-14359-running-stateful-applications-in-kubernetes"><a href="https://skillsmatter.com/skillscasts/14359-running-stateful-applications-in-kubernetes">StorageOS</a></a>
 <ul>
-<li><a href="#speakers">Speakers</a></li>
+<li><a href="#data-transfer-and-high-availability">Data Transfer and High Availability</a></li>
 </ul></li>
-</ul></li>
+<li><a href="#running-a-basic-kubernetes-app">Running a basic Kubernetes app</a></li>
 </ul></li>
 </ul></li>
 </ul>
@@ -378,7 +385,7 @@
           
             <h1>
               
-              Qcon Ramblings
+              Kubernetes: 05/09
             </h1>
           
 
@@ -387,40 +394,105 @@
 
 
 
-	
 
 <hr />
 
-<p>Having gone to QCON back in the first quarter of the year, I haven&rsquo;t spent much time to reflect on what I picked up at the conference.</p>
+<p><strong>My. First. Meetup.</strong></p>
 
-<p>QCON London - <a href="https://www.infoq.com/conferences/qconlondon2019/">https://www.infoq.com/conferences/qconlondon2019/</a></p>
+<p>I turned up to this as a lone ranger, without knowing what to really expect other than the possibility of free beer and pizza! The CodeNode I was aware of from a previous Worldpay &ldquo;mini tech conference&rdquo; back in 2017, and has a cool setup. Note: maybe we should encourage someone to do another tech conference.</p>
 
-<h4 id="schedules">Schedules</h4>
+<p>This meetup had been organised by <a href="https://skillsmatter.com/groups/10787-london-infrastructure-as-code">Infrastructure as Code</a>, under the <a href="https://skillsmatter.com/">Skills matter</a> umbrella. It was quite light on talkers, however the StorageOs team spent a reasonable amount of time talking and demonstrating so it wasn&rsquo;t too short.</p>
 
-<p>There are schedules available from both 2019
-<a href="https://qconlondon.com/schedule/london2019/tabular">https://qconlondon.com/schedule/london2019/tabular</a></p>
+<h4 id="kubernetes-in-a-nutshell">Kubernetes in a nutshell</h4>
 
-<h4 id="general-thoughts">General Thoughts</h4>
+<p>Dennis initially gave a brief overview of Kubernetes, explaining the K8 pods as a group of containers within a Node/VM. Which was a very brief overview.</p>
 
-<h5 id="speakers">Speakers</h5>
+<p>And then the walkthrough, where he setup a static website on a K8 cluster. You may as well just <a href="https://skillsmatter.com/skillscasts/14358-london-infrastructure-as-code-september#video">watch the video</a> if you&rsquo;re interested.</p>
 
-<p>Speakers who I found most engaging and intersting to listen to were:</p>
+<p>He had a docker pod setup with a small sized image, built the image / app into a docker pod, pushed his image to his docker hub, started MiniKube &amp; KubeCTL,</p>
+
+<p>What I&rsquo;ve learnt whilst following this:</p>
 
 <ul>
-<li><p>Randy Shoup (We Work, Google)</p></li>
+<li><p>Setting up Docker was simple enough 😄</p></li>
 
-<li><p>Simon Wardley (LEF, Government, inventor of the <em>Wardley Map</em>)</p></li>
-
-<li><p>Andy Walker (Skyscanner)</p></li>
+<li><p>Spent a reasonable amount of time trying to host my HTML file onto the docker image. Basically I&rsquo;d misunderstood the way of standing up the Docker build, and showed my time away from coding. The COPY command is pretty obvious, but I&rsquo;d forgotten that the &lsquo;.&rsquo; stood for something, namely <em>everything in the folder you are running from</em> 😭</p></li>
 </ul>
 
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">FROM nginx:alpine
+COPY . /usr/share/nginx/html
+EXPOSE <span style="color:#ae81ff">80</span></code></pre></div>
 
+<ul>
+<li>Once I understood that you copied the directory into the image rather (writing this out makes me feel super stupid, as this surely is one of the main concepts of containers 🙈), I was on my way.</li>
+</ul>
 
+<p>I&rsquo;ll dive into the Kubernetes setup later on in this page, lest you fall asleep before the other points of interest. 😴</p>
+
+<h3 id="storageos-https-skillsmatter-com-skillscasts-14359-running-stateful-applications-in-kubernetes"><a href="https://skillsmatter.com/skillscasts/14359-running-stateful-applications-in-kubernetes">StorageOS</a></h3>
+
+<p>The technical talk around this was interesting and quite thorough, particularly as it was showing the service in action whilst explaining the concepts. I&rsquo;ve pretty shamelessly <a href="https://docs.storageos.com/docs/">stolen some of their diagrams</a> below to help me remember what they talked about 😆</p>
+
+<h4 id="data-transfer-and-high-availability">Data Transfer and High Availability</h4>
+
+<p>The platform was using replicated volumes across multiple nodes to provide data protections and high availability. Interestingly, the platform uses <em>synchronous</em> replication across leader based replication for consistency. This means there is a round trip involved and that writes are dependent on a quorum being complete, and likely needs an aggressive failure identification model to determine if a node is non-accessible.</p>
+
+<p><img src="https://calumjackson.github.io/techblog/images/meetup_pics/storageos/high-availability.png" alt="high-avail" /></p>
+
+<p>This basically works in sending data to the primary data store first, and then replicating across the replica nodes. Replicas are aggressively replaced, and these are synced <em>asynchronously</em> and work with eventual consistency until they are in sync. (This means that the new replica will not require acknowledgements until it is in sync).</p>
+
+<p><img src="https://calumjackson.github.io/techblog/images/meetup_pics/storageos/storageos-cluster.png" alt="architecture" /></p>
+
+<p>This separates the storage from the application (this is same as cassandra?), which means if the application fails the storage isn&rsquo;t lost (because the database is contained within the container, and K8s can take up to 5 minutes to be deemed as lost.)</p>
+
+<p>Another key feature is that the storage is failed over between availability zones if one goes down.</p>
+
+<hr />
+
+<h3 id="running-a-basic-kubernetes-app">Running a basic Kubernetes app</h3>
+
+<p>Steps to run a docker image in Kubernetes (I&rsquo;ve excluded <a href="https://kubernetes.io/docs/tasks/tools/install-minikube/">instaling minikube, kubectl, and vmware</a> as this was relatively straightforward)</p>
+
+<p>Builds the image into a docker pod</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo docker build -t practice-app .</code></pre></div>
+
+<p>Run the docker pod against a particular port, and started minikube</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo docker run -d -p <span style="color:#ae81ff">80</span>:80
+$ minikube start</code></pre></div>
+
+<p>Logged into the dockerhub instance</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo docker login --username<span style="color:#f92672">=</span>yourUserName
+$ sudo docker tag 209cd5379600 yourUserName/practice-app:101
+$ sudo docker push yourUserName/practice-app:101</code></pre></div>
+
+<p>Within kubernetes, run the container application against a particular port. Can check the yaml file to see the current configuration.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ kubectl run practice-app --image<span style="color:#f92672">=</span>yourUserName/practice-app:101 --port<span style="color:#f92672">=</span><span style="color:#ae81ff">80</span>
+$ kubectl get deployment --export -o yaml</code></pre></div>
+
+<p>Expose the deployment against the internal NodePort. &lsquo;Get service&rsquo; will return the details of the deployment.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ kubectl expose deployment practice-app --type<span style="color:#f92672">=</span>NodePort
+$ kubectl get service</code></pre></div>
+
+<p>Get the url of where the service is running - removing the &ndash;url hint will trigger the web browser to open at that page.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ minikube service practice-app --url
+$ minikube service practice-app</code></pre></div>
+
+<p>Finally, to scale out to X amounts of replicas. The -o wide commands below allow all details about the services to be seen.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ kubectl scale deployment practice-app --replicas<span style="color:#f92672">=</span><span style="color:#ae81ff">4</span>
+$ kubectl get po -o wide</code></pre></div>
 
 
 <footer class=" footline" >
 	
 </footer>
+
 
         
         </div> 
@@ -472,7 +544,6 @@
             
                 
                     
-                    
                 
                 
 
@@ -486,8 +557,21 @@
             
                 
                     
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
                         
-                        
+            
+            
+                
                     
                 
                 
@@ -548,22 +632,6 @@
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
             
         
                     
@@ -572,6 +640,7 @@
             
                 
                     
+                    
                 
                 
 
@@ -584,6 +653,7 @@
             
             
                 
+                    
                     
                 
                 
@@ -600,6 +670,9 @@
             
             
                 
+                    
+                        
+                        
                     
                 
                 
@@ -624,10 +697,10 @@
 	 
 	 
 		
-			<a class="nav nav-prev" href="https://calumjackson.github.io/techblog/home/" title="Welcome"> <i class="fa fa-chevron-left"></i></a>
+			<a class="nav nav-prev" href="https://calumjackson.github.io/techblog/meetup_ramblings/" title="Meetup Ramblings"> <i class="fa fa-chevron-left"></i></a>
 		
 		
-			<a class="nav nav-next" href="https://calumjackson.github.io/techblog/qcon_notes/randy_shoup/" title="Randy Shoup: Performance Culture" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+			<a class="nav nav-next" href="https://calumjackson.github.io/techblog/meetup_ramblings/snowplowandmonzo/" title="Data Analytics: 12/09" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
 		
 	
     </div>
@@ -657,3 +730,4 @@
 
   </body>
 </html>
+
