@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://localhost:1313/techblog/reading/wardley_maps/</loc>
+    <lastmod>2019-09-15T21:38:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/techblog/meetup_ramblings/storageos/</loc>
+    <lastmod>2019-09-13T15:59:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/techblog/qcon_notes/randy_shoup/</loc>
+    <lastmod>2019-08-31T17:38:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/techblog/home/</loc>
+    <lastmod>2019-08-31T17:32:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/techblog/meetup_ramblings/snowplowandmonzo/</loc>
+    <lastmod>2019-09-13T15:59:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/techblog/qcon_notes/andy_walker/</loc>
+    <lastmod>2019-09-08T15:59:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/techblog/qcon_notes/</loc>
+    <lastmod>2019-09-04T17:32:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/techblog/qcon_notes/simon_wardley/</loc>
+    <lastmod>2019-08-31T17:38:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/techblog/meetup_ramblings/</loc>
+    <lastmod>2019-09-13T17:38:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/techblog/qcon_notes/trisha_gee/</loc>
+    <lastmod>2019-09-10T17:38:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/techblog/reading/</loc>
+    <lastmod>2019-09-15T21:32:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/techblog/qcon_notes/ben_sieglman/</loc>
+    <lastmod>2019-09-08T15:59:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/techblog/</loc>
+    <lastmod>2019-08-31T17:32:53+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/techblog/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/techblog/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

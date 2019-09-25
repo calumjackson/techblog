@@ -32,11 +32,11 @@ I don't think this company need an introduction (unless your reading this from a
 
 The onus of the talk here was around Monzo migrating to [dbt](https://docs.getdbt.com/) (data build tool), and how that is really cool and useful. dbt is open source data transformation layer for analytics, which provides an abstraction in the coding which allows for essentially schemaless(?) data structures, such that the underlying queries can be restructured without affecting the output.
 
-![transformation](/images/meetup_pics/product.svg)
+![transformation](/images/meetup_pics/product.svg?classes=shadow)
 
 The view below shows how the queries are built within the code at a high level. To my mind this is essentially an extension of database views, but probably with a bit less of the hassle maintaining changes. This is a **compiled language** rather than interpreted, which gives the benefit of noticing any issues at deployment rather than runtime, with the tradeoff of.. I'm not sure, actually being more tightly coupled to the datasets below? Is that how it works :see_no_evil:
 
-![build](/images/meetup_pics/transform.svg)
+![build](/images/meetup_pics/transform.svg?classes=float-left,shadow)
 
 After talking with a few people later, it sounds like dbt deals with issues like missing columns by just filling them as blank, which is either a good thing for preventing code failures, or bad as it doesn't guarantee data consistency if those columns are being used in a join. I guess a limitation of the system which the developers need to understand!
 

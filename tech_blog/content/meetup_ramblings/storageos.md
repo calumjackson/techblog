@@ -45,7 +45,7 @@ The technical talk around this was interesting and quite thorough, particularly 
 
 The platform was using replicated volumes across multiple nodes to provide data protections and high availability. Interestingly, the platform uses _synchronous_ replication across leader based replication for consistency. This means there is a round trip involved and that writes are dependent on a quorum being complete, and likely needs an aggressive failure identification model to determine if a node is non-accessible.
 
-![high-avail](/images/meetup_pics/storageos/high-availability.png)
+![high-avail](/images/meetup_pics/storageos/high-availability.png?classes=float-left,shadow)
 
 This basically works in sending data to the primary data store first, and then replicating across the replica nodes. Replicas are aggressively replaced, and these are synced _asynchronously_ and work with eventual consistency until they are in sync. (This means that the new replica will not require acknowledgements until it is in sync).
 

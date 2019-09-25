@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>index on Tech Blog</title>
+    <link>http://localhost:1313/techblog/</link>
+    <description>Recent content in index on Tech Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Aug 2019 17:32:53 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/techblog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Simon Wardley: Map Notes</title>
+      <link>http://localhost:1313/techblog/reading/wardley_maps/</link>
+      <pubDate>Sun, 15 Sep 2019 21:38:47 +0100</pubDate>
+      
+      <guid>http://localhost:1313/techblog/reading/wardley_maps/</guid>
+      <description>This is an extension of the Wardley Maps talk I have mentioned in the QCon section, and largely comes from Simon&amp;rsquo;s extensive book in the creative commons as he called it.</description>
+    </item>
+    
+    <item>
+      <title>Kubernetes: 05/09</title>
+      <link>http://localhost:1313/techblog/meetup_ramblings/storageos/</link>
+      <pubDate>Fri, 13 Sep 2019 15:59:47 +0100</pubDate>
+      
+      <guid>http://localhost:1313/techblog/meetup_ramblings/storageos/</guid>
+      <description>My. First. Meetup.
+I turned up to this as a lone ranger, without knowing what to really expect other than the possibility of free beer and pizza! The CodeNode I was aware of from a previous Worldpay &amp;ldquo;mini tech conference&amp;rdquo; back in 2017, and has a cool setup. Note: maybe we should encourage someone to do another tech conference.
+This meetup had been organised by Infrastructure as Code, under the Skills matter umbrella.</description>
+    </item>
+    
+    <item>
+      <title>Randy Shoup: Performance Culture</title>
+      <link>http://localhost:1313/techblog/qcon_notes/randy_shoup/</link>
+      <pubDate>Sat, 31 Aug 2019 17:38:47 +0100</pubDate>
+      
+      <guid>http://localhost:1313/techblog/qcon_notes/randy_shoup/</guid>
+      <description>Randy took the time to talk through High Performance Culture, and how to build and scale it. This was my favourite talk of the conference.
+Randy went through a lot of material verrry quickly, but all of it was super interesting.
+Initially he basically talked through the accelerate [accelerate] book at a super high level, and the key notes he took which lead into his points in the rest of the talk.</description>
+    </item>
+    
+    <item>
+      <title>Data Analytics: 12/09</title>
+      <link>http://localhost:1313/techblog/meetup_ramblings/snowplowandmonzo/</link>
+      <pubDate>Fri, 13 Sep 2019 15:59:47 +0100</pubDate>
+      
+      <guid>http://localhost:1313/techblog/meetup_ramblings/snowplowandmonzo/</guid>
+      <description>My. Second. Meetup.
+This meet-up was organised by the Data Council.ai team, and had a couple of switched on presenters:
+ Snow Plow Monzo pgAudit  Snow Plow The first of many Stephen&amp;rsquo;s on stage this evening was from Snow Plow (the meetup sponsor), who are a data analytics platform (still not sure how well used that term is generally - is this something that is used to build other services on?</description>
+    </item>
+    
+    <item>
+      <title>Andy Walker: Zombie Apocalypse</title>
+      <link>http://localhost:1313/techblog/qcon_notes/andy_walker/</link>
+      <pubDate>Sun, 08 Sep 2019 15:59:47 +0100</pubDate>
+      
+      <guid>http://localhost:1313/techblog/qcon_notes/andy_walker/</guid>
+      <description>The naming of this presentation initially put me off, as it seemed somewhat outside of the nature of the conference. However, How to Survive the Zombie Apocalypse ended up being a useful forewarning &amp;amp; guide on how to manage oneself throughout your career, and how to help others with this.
+The majority of the presentation seemed common sense, however these were the points which are not always focused on and unless you begin to think about them, are not clear - you can struggle to see where you can help yourself if you aren&amp;rsquo;t looking from outside an isolated perspective of yourself.</description>
+    </item>
+    
+    <item>
+      <title>Simon Wardley: Maps</title>
+      <link>http://localhost:1313/techblog/qcon_notes/simon_wardley/</link>
+      <pubDate>Sat, 31 Aug 2019 17:38:47 +0100</pubDate>
+      
+      <guid>http://localhost:1313/techblog/qcon_notes/simon_wardley/</guid>
+      <description>Hadn&amp;rsquo;t seen this presentation, but had heard it was good from colleagues. Having watched a few times, he is a very confident talker who keeps you engaged at all times.
+The main thing I took away from the talk was how clear and concise his observations, comments, and articulations were. It was a well put together piece, which has probably been practiced across the land!
+Whether this was due to the Wardley Maps or his own charisma, I can&amp;rsquo;t comment, but imagine it would be both.</description>
+    </item>
+    
+    <item>
+      <title>Trisha Gee: Buzzzwords</title>
+      <link>http://localhost:1313/techblog/qcon_notes/trisha_gee/</link>
+      <pubDate>Tue, 10 Sep 2019 17:38:47 +0100</pubDate>
+      
+      <guid>http://localhost:1313/techblog/qcon_notes/trisha_gee/</guid>
+      <description>Trisha was talking about how to improve your career by being aware of buzzwords and key phrases. This wasn&amp;rsquo;t so much to deceive people by pretending that you knew what you were talking about, but to be aware of what the current trends are so that you can pay attention when you notice interesting articles with those buzzwords.
+The majority of the talk was around picking out interesting articles, saving them to a close to hand reading app, like Pocket, or Medium, which allow you save the articles for later reading.</description>
+    </item>
+    
+    <item>
+      <title>Ben Sieglman: Microservice</title>
+      <link>http://localhost:1313/techblog/qcon_notes/ben_sieglman/</link>
+      <pubDate>Sun, 08 Sep 2019 15:59:47 +0100</pubDate>
+      
+      <guid>http://localhost:1313/techblog/qcon_notes/ben_sieglman/</guid>
+      <description>Ben was an engineer at Google since the early years (2003),
+I didn&amp;rsquo;t really listen to this much
+ Video Link</description>
+    </item>
+    
+  </channel>
+</rss>
