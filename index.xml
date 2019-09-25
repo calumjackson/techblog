@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Simon Wardley: Map Notes</title>
+      <link>https://calumjackson.github.io/techblog/reading/wardley_maps/</link>
+      <pubDate>Sun, 15 Sep 2019 21:38:47 +0100</pubDate>
+      
+      <guid>https://calumjackson.github.io/techblog/reading/wardley_maps/</guid>
+      <description>This is an extension of the Wardley Maps talk I have mentioned in the QCon section, and largely comes from Simon&amp;rsquo;s extensive book in the creative commons as he called it.</description>
+    </item>
+    
+    <item>
       <title>Kubernetes: 05/09</title>
       <link>https://calumjackson.github.io/techblog/meetup_ramblings/storageos/</link>
       <pubDate>Fri, 13 Sep 2019 15:59:47 +0100</pubDate>
@@ -52,6 +61,16 @@ This meet-up was organised by the Data Council.ai team, and had a couple of swit
       <guid>https://calumjackson.github.io/techblog/qcon_notes/andy_walker/</guid>
       <description>The naming of this presentation initially put me off, as it seemed somewhat outside of the nature of the conference. However, How to Survive the Zombie Apocalypse ended up being a useful forewarning &amp;amp; guide on how to manage oneself throughout your career, and how to help others with this.
 The majority of the presentation seemed common sense, however these were the points which are not always focused on and unless you begin to think about them, are not clear - you can struggle to see where you can help yourself if you aren&amp;rsquo;t looking from outside an isolated perspective of yourself.</description>
+    </item>
+    
+    <item>
+      <title>Terraform &amp; Devops: 24/09</title>
+      <link>https://calumjackson.github.io/techblog/meetup_ramblings/bulb/</link>
+      <pubDate>Tue, 24 Sep 2019 15:59:47 +0100</pubDate>
+      
+      <guid>https://calumjackson.github.io/techblog/meetup_ramblings/bulb/</guid>
+      <description>Today was a wet day. The first real rain we&amp;rsquo;ve seen this side of summer and all of London fell to pieces. Liverpool St station was flooding, Tfl was breaking down, and the imposing entrance of the Broadgate Business Centre was miserably out of action as I arrived at this meetup. Luckily the talks were less miserable, iiiiffff slightly vague, deep, and near comical.
+Scott Logic on Devops Quite a good overview on how devops is not a tooling piece but a set of cultures which incoporate aspects such as good tooling, CI/CD, agile/lean, etc to create a steamlined deployment process with high levels of monitoring, automation, and focus on reducing pain of operations.</description>
     </item>
     
     <item>
