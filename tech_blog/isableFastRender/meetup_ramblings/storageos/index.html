@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.54.0" />
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="http://localhost:1313/techblog/images/favicon.png" type="image/png">
+
+    <title>Kubernetes: 05/09 :: Tech Blog</title>
+
+    
+    <link href="http://localhost:1313/techblog/css/nucleus.css?1579525212" rel="stylesheet">
+    <link href="http://localhost:1313/techblog/css/fontawesome-all.min.css?1579525212" rel="stylesheet">
+    <link href="http://localhost:1313/techblog/css/hybrid.css?1579525212" rel="stylesheet">
+    <link href="http://localhost:1313/techblog/css/featherlight.min.css?1579525212" rel="stylesheet">
+    <link href="http://localhost:1313/techblog/css/perfect-scrollbar.min.css?1579525212" rel="stylesheet">
+    <link href="http://localhost:1313/techblog/css/auto-complete.css?1579525212" rel="stylesheet">
+    <link href="http://localhost:1313/techblog/css/atom-one-dark-reasonable.css?1579525212" rel="stylesheet">
+    <link href="http://localhost:1313/techblog/css/theme.css?1579525212" rel="stylesheet">
+    <link href="http://localhost:1313/techblog/css/hugo-theme.css?1579525212" rel="stylesheet">
+    
+
+    <script src="http://localhost:1313/techblog/js/jquery-3.3.1.min.js?1579525212"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+
+  </head>
+  <body class="" data-url="/meetup_ramblings/storageos/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="http://localhost:1313/techblog/"><i class= "fas fa-laptop-code fa-5x"></i>
+
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="http://localhost:1313/techblog/js/lunr.min.js?1579525212"></script>
+<script type="text/javascript" src="http://localhost:1313/techblog/js/auto-complete.js?1579525212"></script>
+<script type="text/javascript">
+    
+        var baseurl = "http:\/\/localhost:1313\/techblog\/";
+    
+</script>
+<script type="text/javascript" src="http://localhost:1313/techblog/js/search.js?1579525212"></script>
+
+    
+  </div>
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/brownbagnotes/" title="Brown Bag Notes" class="dd-item 
+        
+        
+        
+        ">
+      <a href="http://localhost:1313/techblog/brownbagnotes/">
+          Brown Bag Notes
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/brownbagnotes/developing_maps_climatic_patters/" title="How to Build the Map" class="dd-item ">
+        <a href="http://localhost:1313/techblog/brownbagnotes/developing_maps_climatic_patters/">
+        How to Build the Map
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/home/" title="Welcome" class="dd-item 
+        
+        
+        
+        ">
+      <a href="http://localhost:1313/techblog/home/">
+          Welcome
+          
+      </a>
+      
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/qcon_notes/" title="Qcon Ramblings" class="dd-item 
+        
+        
+        
+        ">
+      <a href="http://localhost:1313/techblog/qcon_notes/">
+          Qcon Ramblings
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/qcon_notes/randy_shoup/" title="Randy Shoup: Performance Culture" class="dd-item ">
+        <a href="http://localhost:1313/techblog/qcon_notes/randy_shoup/">
+        Randy Shoup: Performance Culture
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/qcon_notes/andy_walker/" title="Andy Walker: Zombie Apocalypse" class="dd-item ">
+        <a href="http://localhost:1313/techblog/qcon_notes/andy_walker/">
+        Andy Walker: Zombie Apocalypse
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/qcon_notes/simon_wardley/" title="Simon Wardley: Maps" class="dd-item ">
+        <a href="http://localhost:1313/techblog/qcon_notes/simon_wardley/">
+        Simon Wardley: Maps
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/qcon_notes/trisha_gee/" title="Trisha Gee: Buzzzwords" class="dd-item ">
+        <a href="http://localhost:1313/techblog/qcon_notes/trisha_gee/">
+        Trisha Gee: Buzzzwords
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/qcon_notes/ben_sieglman/" title="Ben Sieglman: Microservice" class="dd-item ">
+        <a href="http://localhost:1313/techblog/qcon_notes/ben_sieglman/">
+        Ben Sieglman: Microservice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/mpd_notes/" title="Notes for MPD" class="dd-item 
+        
+        
+        
+        ">
+      <a href="http://localhost:1313/techblog/mpd_notes/">
+          Notes for MPD
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/mpd_notes/open_questions/" title="Open Questions" class="dd-item ">
+        <a href="http://localhost:1313/techblog/mpd_notes/open_questions/">
+        Open Questions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/meetup_ramblings/" title="Meetup Ramblings" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="http://localhost:1313/techblog/meetup_ramblings/">
+          Meetup Ramblings
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/meetup_ramblings/storageos/" title="Kubernetes: 05/09" class="dd-item active">
+        <a href="http://localhost:1313/techblog/meetup_ramblings/storageos/">
+        Kubernetes: 05/09
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/meetup_ramblings/snowplowandmonzo/" title="Data Analytics: 12/09" class="dd-item ">
+        <a href="http://localhost:1313/techblog/meetup_ramblings/snowplowandmonzo/">
+        Data Analytics: 12/09
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/meetup_ramblings/bulb/" title="Terraform &amp; Devops: 24/09" class="dd-item ">
+        <a href="http://localhost:1313/techblog/meetup_ramblings/bulb/">
+        Terraform &amp; Devops: 24/09
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+ 
+  
+    
+    <li data-nav-id="/reading/" title="Reading Notes" class="dd-item 
+        
+        
+        
+        ">
+      <a href="http://localhost:1313/techblog/reading/">
+          Reading Notes
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/wardley_maps/" title="Simon Wardley: Map Notes" class="dd-item ">
+        <a href="http://localhost:1313/techblog/reading/wardley_maps/">
+        Simon Wardley: Map Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/boiling_frogs/" title="Boiling Frogs" class="dd-item ">
+        <a href="http://localhost:1313/techblog/reading/boiling_frogs/">
+        Boiling Frogs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+         
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='http://localhost:1313/techblog/'>index</a> > <a href='http://localhost:1313/techblog/meetup_ramblings/'>Meetup Ramblings</a> > Kubernetes: 05/09
+          
+         
+          
+         
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li>
+<ul>
+<li><a href="#kubernetes-in-a-nutshell">Kubernetes in a nutshell</a></li>
+</ul></li>
+<li><a href="#storageos-https-skillsmatter-com-skillscasts-14359-running-stateful-applications-in-kubernetes"><a href="https://skillsmatter.com/skillscasts/14359-running-stateful-applications-in-kubernetes">StorageOS</a></a>
+<ul>
+<li><a href="#data-transfer-and-high-availability">Data Transfer and High Availability</a></li>
+</ul></li>
+<li><a href="#running-a-basic-kubernetes-app">Running a basic Kubernetes app</a></li>
+</ul></li>
+</ul></li>
+</ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Kubernetes: 05/09
+            </h1>
+          
+
+        
+
+
+
+
+
+<hr />
+
+<p><strong>My. First. Meetup.</strong></p>
+
+<p>I turned up to this as a lone ranger, without knowing what to really expect other than the possibility of free beer and pizza! The CodeNode I was aware of from a previous Worldpay &ldquo;mini tech conference&rdquo; back in 2017, and has a cool setup. Note: maybe we should encourage someone to do another tech conference.</p>
+
+<p>This meetup had been organised by <a href="https://skillsmatter.com/groups/10787-london-infrastructure-as-code">Infrastructure as Code</a>, under the <a href="https://skillsmatter.com/">Skills matter</a> umbrella. It was quite light on talkers, however the StorageOs team spent a reasonable amount of time talking and demonstrating so it wasn&rsquo;t too short.</p>
+
+<h4 id="kubernetes-in-a-nutshell">Kubernetes in a nutshell</h4>
+
+<p>Dennis initially gave a brief overview of Kubernetes, explaining the K8 pods as a group of containers within a Node/VM. Which was a very brief overview.</p>
+
+<p>And then the walkthrough, where he setup a static website on a K8 cluster. You may as well just <a href="https://skillsmatter.com/skillscasts/14358-london-infrastructure-as-code-september#video">watch the video</a> if you&rsquo;re interested.</p>
+
+<p>He had a docker pod setup with a small sized image, built the image / app into a docker pod, pushed his image to his docker hub, started MiniKube &amp; KubeCTL,</p>
+
+<p>What I&rsquo;ve learnt whilst following this:</p>
+
+<ul>
+<li><p>Setting up Docker was simple enough 😄</p></li>
+
+<li><p>Spent a reasonable amount of time trying to host my HTML file onto the docker image. Basically I&rsquo;d misunderstood the way of standing up the Docker build, and showed my time away from coding. The COPY command is pretty obvious, but I&rsquo;d forgotten that the &lsquo;.&rsquo; stood for something, namely <em>everything in the folder you are running from</em> 😭</p></li>
+</ul>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">FROM nginx:alpine
+COPY . /usr/share/nginx/html
+EXPOSE <span style="color:#ae81ff">80</span></code></pre></div>
+
+<ul>
+<li>Once I understood that you copied the directory into the image rather (writing this out makes me feel super stupid, as this surely is one of the main concepts of containers 🙈), I was on my way.</li>
+</ul>
+
+<p>I&rsquo;ll dive into the Kubernetes setup later on in this page, lest you fall asleep before the other points of interest. 😴</p>
+
+<h3 id="storageos-https-skillsmatter-com-skillscasts-14359-running-stateful-applications-in-kubernetes"><a href="https://skillsmatter.com/skillscasts/14359-running-stateful-applications-in-kubernetes">StorageOS</a></h3>
+
+<p>The technical talk around this was interesting and quite thorough, particularly as it was showing the service in action whilst explaining the concepts. I&rsquo;ve pretty shamelessly <a href="https://docs.storageos.com/docs/">stolen some of their diagrams</a> below to help me remember what they talked about 😆</p>
+
+<h4 id="data-transfer-and-high-availability">Data Transfer and High Availability</h4>
+
+<p>The platform was using replicated volumes across multiple nodes to provide data protections and high availability. Interestingly, the platform uses <em>synchronous</em> replication across leader based replication for consistency. This means there is a round trip involved and that writes are dependent on a quorum being complete, and likely needs an aggressive failure identification model to determine if a node is non-accessible.</p>
+
+<p><img src="http://localhost:1313/techblog/images/meetup_pics/storageos/high-availability.png?classes=float-left,shadow" alt="high-avail" /></p>
+
+<p>This basically works in sending data to the primary data store first, and then replicating across the replica nodes. Replicas are aggressively replaced, and these are synced <em>asynchronously</em> and work with eventual consistency until they are in sync. (This means that the new replica will not require acknowledgements until it is in sync).</p>
+
+<p><img src="http://localhost:1313/techblog/images/meetup_pics/storageos/storageos-cluster.png" alt="architecture" /></p>
+
+<p>This separates the storage from the application (this is same as cassandra?), which means if the application fails the storage isn&rsquo;t lost (because the database is contained within the container, and K8s can take up to 5 minutes to be deemed as lost.)</p>
+
+<p>Another key feature is that the storage is failed over between availability zones if one goes down.</p>
+
+<hr />
+
+<h3 id="running-a-basic-kubernetes-app">Running a basic Kubernetes app</h3>
+
+<p>Steps to run a docker image in Kubernetes (I&rsquo;ve excluded <a href="https://kubernetes.io/docs/tasks/tools/install-minikube/">instaling minikube, kubectl, and vmware</a> as this was relatively straightforward)</p>
+
+<p>Builds the image into a docker pod</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo docker build -t practice-app .</code></pre></div>
+
+<p>Run the docker pod against a particular port, and started minikube</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo docker run -d -p <span style="color:#ae81ff">80</span>:80
+$ minikube start</code></pre></div>
+
+<p>Logged into the dockerhub instance</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ sudo docker login --username<span style="color:#f92672">=</span>yourUserName
+$ sudo docker tag 209cd5379600 yourUserName/practice-app:101
+$ sudo docker push yourUserName/practice-app:101</code></pre></div>
+
+<p>Within kubernetes, run the container application against a particular port. Can check the yaml file to see the current configuration.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ kubectl run practice-app --image<span style="color:#f92672">=</span>yourUserName/practice-app:101 --port<span style="color:#f92672">=</span><span style="color:#ae81ff">80</span>
+$ kubectl get deployment --export -o yaml</code></pre></div>
+
+<p>Expose the deployment against the internal NodePort. &lsquo;Get service&rsquo; will return the details of the deployment.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ kubectl expose deployment practice-app --type<span style="color:#f92672">=</span>NodePort
+$ kubectl get service</code></pre></div>
+
+<p>Get the url of where the service is running - removing the &ndash;url hint will trigger the web browser to open at that page.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ minikube service practice-app --url
+$ minikube service practice-app</code></pre></div>
+
+<p>Finally, to scale out to X amounts of replicas. The -o wide commands below allow all details about the services to be seen.</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">$ kubectl scale deployment practice-app --replicas<span style="color:#f92672">=</span><span style="color:#ae81ff">4</span>
+$ kubectl get po -o wide</code></pre></div>
+
+
+<footer class=" footline" >
+	
+</footer>
+
+
+        
+        </div> 
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+        
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+        
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="http://localhost:1313/techblog/meetup_ramblings/" title="Meetup Ramblings"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="http://localhost:1313/techblog/meetup_ramblings/snowplowandmonzo/" title="Data Analytics: 12/09" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+    
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="http://localhost:1313/techblog/js/clipboard.min.js?1579525212"></script>
+    <script src="http://localhost:1313/techblog/js/perfect-scrollbar.min.js?1579525212"></script>
+    <script src="http://localhost:1313/techblog/js/perfect-scrollbar.jquery.min.js?1579525212"></script>
+    <script src="http://localhost:1313/techblog/js/jquery.sticky.js?1579525212"></script>
+    <script src="http://localhost:1313/techblog/js/featherlight.min.js?1579525212"></script>
+    <script src="http://localhost:1313/techblog/js/highlight.pack.js?1579525212"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="http://localhost:1313/techblog/js/modernizr.custom-3.6.0.js?1579525212"></script>
+    <script src="http://localhost:1313/techblog/js/learn.js?1579525212"></script>
+    <script src="http://localhost:1313/techblog/js/hugo-learn.js?1579525212"></script>
+
+    <link href="http://localhost:1313/techblog/mermaid/mermaid.css?1579525212" rel="stylesheet" />
+    <script src="http://localhost:1313/techblog/mermaid/mermaid.js?1579525212"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true });
+    </script>
+    
+
+  <script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10"></' + 'script>')</script></body>
+</html>
+
