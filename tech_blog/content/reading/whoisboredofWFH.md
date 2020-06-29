@@ -1,3 +1,10 @@
+---
+title: "Is Anyone Bored of WFH?"
+date: 2020-06-28T21:38:47+01:00
+draft: false
+weight: 3
+---
+
 # Is Anyone Bored of WFH yet?
 
 How are you finding the brave new world of working from home; Is it all relaxed meetings in pyjamas and smoothies in the morning, or is it entertaining _bored_ kids and partners.
