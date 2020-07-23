@@ -37,11 +37,13 @@ We're also working in a global company where it's likely you're going to be talk
 
 Obviously this isn't going to apply to all cases, you may have good reasons not to have the camera on for all calls, but if you're worried about other family members or flatmates getting in the shot, remember that everyone has seen **that** [BBC interview](https://www.youtube.com/watch?v=Mh4f9AYRCZY) enough times to have overcome over the novelty of a tiny intruder running through the room (and, we're going to hear them anyway).
 
+![Intruder!](bbc_gif.gif)
+
 ## 3. Let the voices be heard!
 
 Online meetings aren't the free flowing idea factories that we are used to in a conference room. Conversations are generally more fractured, it's difficult to determine understanding & buy in within the (Teams) room, and with everyone vying to speak with no way to be heard without talking over someone else, opinions can easily be lost to the ether, and a colleagues buy in to the decisions made with it.
 
-Some of these problems can be solved by [having cameras on](#Turn-on-the-damn-camera), which gives talkers and listeners alike feedback to peoples reactions within the calls. This can be particularly useful to tell if the ideas & plans you are discussing are resonating with the team, and to determine if those with less inclination to interject seem to have any further opinions they may want to share (assuming you can _[read the air](https://www.bbc.com/worklife/article/20200129-what-is-reading-the-air-in-japan)_ well!)
+Some of these problems can be solved by [having cameras on](#2-turn-on-the-damn-camera), which gives talkers and listeners alike feedback to peoples reactions within the calls. This can be particularly useful to tell if the ideas & plans you are discussing are resonating with the team, and to determine if those with less inclination to interject seem to have any further opinions they may want to share (assuming you can _[read the air](https://www.bbc.com/worklife/article/20200129-what-is-reading-the-air-in-japan)_ well!)
 
 Further to this, make sure to make time for everyone to give their opinions; depending on the size of the group, you could go around asking everyone if they have any further input, or asking the group generally - making sure to leave time for people to pipe up!
 
@@ -50,6 +52,10 @@ People generally have different comfort levels with communicating ideas in group
 ## 4. Have a meeting agenda, & document
 
 Make sure your meeting has an [agenda](https://about.gitlab.com/company/culture/all-remote/meetings/#have-an-agenda). Meetings are filling up peoples calendars thick and fast, and the last thing people will want is to spend 30 minutes listening to a call to find out they could provide no input at all.
+
+
+![Atl text](do_nothing_gif.gif)
+
 
 It also gives you a ready made documenting framework; Just add your notes below each agenda point! This can be distributed out at the end of the meeting so everyone can refer back to what was discussed & decided, and keeps anyone who could not in the meeting in the loop.
 
@@ -71,6 +77,6 @@ Get a good headset, or use your phone / ipad to dial into meetings on Teams etc.
 
 Don't forget that you are at home and you have a lot more freedoms than you would in the office! Do your kids need 20 minutes help with their homework?  Is the sunshine forecast at lunch going to be better cycling weather than the evening downpours? Will your dinner taste much more flavoursome if you season the ingredients mid-morning rather than 5 minutes before? ([Yes.](https://www.saltfatacidheat.com/))
 
-We have the ability to be more flexible with our working hours (still avoiding [point 1](#Avoid-That-Burnout!)), so taking time to enjoy the fact your are at home and not being stuffed like a sardine into a oven-hot tube train to get to work is a luxury you can afford yourself.
+We have the ability to be more flexible with our working hours (still avoiding [point 1](#1-avoid-that-burnout)), so taking time to enjoy the fact your are at home and not being stuffed like a sardine into a oven-hot tube train to get to work is a luxury you can afford yourself.
 
 Obviously this is better if your availability around these breaks is clear in your calendar and you aren't jumping off the phone  halfway through a client meeting to go [surfing](https://soundcloud.com/patagonia1973/let-my-people-go-surfing-prologue), but  good surf doesn't generally accommodate the 9-5 working day - so speak to your team to work out what balance you can strike :surfer:
