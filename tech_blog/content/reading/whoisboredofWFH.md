@@ -37,7 +37,7 @@ We're also working in a global company where it's likely you're going to be talk
 
 Obviously this isn't going to apply to all cases, you may have good reasons not to have the camera on for all calls, but if you're worried about other family members or flatmates getting in the shot, remember that everyone has seen **that** [BBC interview](https://www.youtube.com/watch?v=Mh4f9AYRCZY) enough times to have overcome over the novelty of a tiny intruder running through the room (and, we're going to hear them anyway).
 
-![Intruder!](bbc_gif.gif)
+![Intruder!](/images/wfh_pics/bbc_gif.gif)
 
 ## 3. Let the voices be heard!
 
@@ -54,7 +54,7 @@ People generally have different comfort levels with communicating ideas in group
 Make sure your meeting has an [agenda](https://about.gitlab.com/company/culture/all-remote/meetings/#have-an-agenda). Meetings are filling up peoples calendars thick and fast, and the last thing people will want is to spend 30 minutes listening to a call to find out they could provide no input at all.
 
 
-![Atl text](do_nothing_gif.gif)
+![Do nothing?](/images/wfh_pics/do_nothing_gif.gif)
 
 
 It also gives you a ready made documenting framework; Just add your notes below each agenda point! This can be distributed out at the end of the meeting so everyone can refer back to what was discussed & decided, and keeps anyone who could not in the meeting in the loop.
