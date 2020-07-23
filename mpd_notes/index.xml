@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes for MPD on Tech Blog</title>
+    <link>https://calumjackson.github.io/techblog/mpd_notes/</link>
+    <description>Recent content in Notes for MPD on Tech Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 31 Aug 2019 17:38:47 +0100</lastBuildDate>
+    
+	<atom:link href="https://calumjackson.github.io/techblog/mpd_notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Open Questions</title>
+      <link>https://calumjackson.github.io/techblog/mpd_notes/open_questions/</link>
+      <pubDate>Sat, 31 Aug 2019 17:38:47 +0100</pubDate>
+      
+      <guid>https://calumjackson.github.io/techblog/mpd_notes/open_questions/</guid>
+      <description>Questions to direct to business teams Merchant Business Window alignment:  Is a merchants business day limited by the scheme clearing BINs they are aligned to?
+ Could a merchant be transacting under a set of BINs which run on different cycles, and therefore transactions in different CIBs would implicitly become part of the
+ What are we gaining from the merchant liability gap?
+ How do we want to hold the bulkers to account for their submission times?</description>
+    </item>
+    
+  </channel>
+</rss>

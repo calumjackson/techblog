@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brown Bag Notes on Tech Blog</title>
+    <link>https://calumjackson.github.io/techblog/brownbagnotes/</link>
+    <description>Recent content in Brown Bag Notes on Tech Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Sep 2019 21:32:53 +0100</lastBuildDate>
+    
+	<atom:link href="https://calumjackson.github.io/techblog/brownbagnotes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to Build the Map</title>
+      <link>https://calumjackson.github.io/techblog/brownbagnotes/developing_maps_climatic_patters/</link>
+      <pubDate>Sun, 15 Sep 2019 21:32:53 +0100</pubDate>
+      
+      <guid>https://calumjackson.github.io/techblog/brownbagnotes/developing_maps_climatic_patters/</guid>
+      <description>Climatic Patterns Wardley notes that climatic patterns are those things / ideas which change on the map regardless of your actions, such as the evolution of hardware and software to commodity, evolution into new areas based on the commoditisation allowing for this (Utilities allowing Genesis), and that efficiency enables innovation.
+This all seems quite straightforward but is useful to see how you can map to move around those aspects, or at least define the landscape so you can share a discussion with the people around you.</description>
+    </item>
+    
+  </channel>
+</rss>
