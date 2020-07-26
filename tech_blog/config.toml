@@ -7,3 +7,7 @@ canonifyURLs = "true"
 enableEmoji = "true"
 favicon = "images/site_images/campfire.png"
 disqusShortname = "cjtechdiscuss"
+
+
+[params]
+  themeVariant = "cj"

@@ -40,3 +40,8 @@ Planning a project is important part of being a tech lead. Managing the pieces o
 This section mainly revolves around taking your expectations to be a burning light in the technology world and being able to lead the charge of developing exciting software with a strong team around you, and understand that most of being a strong tech leads is taking the time to understand your team, working with them to make sure the whole team gets to work on the parts they are interested in but also have coverage of both the boring and exciting work so that the team have a good holistic understanding of the code they are working.
 
 Being a great communicator also comes heavily into this, through talking or documenting, as you will now be the voice of your team in a lot of situations. This means you will have to be able to communicate the technology and issues you are facing to a wide range of people, which may include talking up or down the company hierarchy and being able to frame the work being done in ways that seem simplistic from a technology point of view. This is important in getting buy-in from the people who will fund or support the projects you want to implements, and also becomes an important way of understanding if the work you want to do will have tangible value to your "customers".
+
+
+#### Managing People
+
+> "New engineering managers think of the job as a promotion, giving them seniority on engineering tasks and questions. This is a great approach for ensuring they remain junior managers, and unsuccessful leaders at that. It’s hard to accept that “new manager” is an entry-level job with no seniority on any front, but that’s the best mindset with which to start leading" - Marc Hedlund
