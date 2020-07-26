@@ -2,7 +2,7 @@
 title: "Reading Notes"
 date: 2019-09-15T21:32:53+01:00
 draft: false
-weight: 5
+weight: 2
 
 ---
 

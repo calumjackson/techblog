@@ -2,11 +2,11 @@
 title: "Qcon Ramblings"
 date: 2019-09-04T17:32:53+01:00
 draft: false
-weight: 2
+weight: 3
 
 ---
 
---- 
+---
 
 Having gone to QCON back in the first quarter of the year, I haven't spent much time to reflect on what I picked up at the conference.
 

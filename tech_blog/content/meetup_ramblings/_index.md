@@ -10,9 +10,6 @@ weight : 4
 <a class="twitter-timeline" data-width="350" data-height="400" data-theme="dark" href="https://twitter.com/calum824/timelines/1219217213581922306?ref_src=twsrc%5Etfw">TechCollection - Curated tweets by calum824</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
-{{ template "_internal/disqus.html" . }}
-
-
 After half-looking for tech events for a while, _eventually_ I became aware of [meetup](https://www.meetup.com) and the many, _many_ options available. The choice is almost overwhelming, the hardest part being choosing which event to go to when there are clashes, and perhaps making sure you understand the aim of the talk...
 
 {{% notice warning %}}
