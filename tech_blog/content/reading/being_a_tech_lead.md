@@ -20,6 +20,33 @@ Keeping regular and planned meetings to help mentees organise their thoughts and
 
 A important point was that you should not be taking on a mentoring role if you are not going to have time to commit to it. It helps neither you or the mentee to have unstructured relationship like this and just delays progress on both parts, as the time you do end up spending has less tangible benefit.
 
+#### Questions on Mentoring
+
+* What aims should you be providing to a mentee?
+  * Make sure the work is meaningful, but if the mentee is new to the company, not too intimidating so that they can contribute successfully to the team.
+* What differences should you provide a mentee vs an experienced team member?
+  * For say interns, you may want to give 2-3x longer to complete a project - this will generally mean dividing the time they are in your team by 2/3.
+  * This should probably be 2x for a new team member, as they will generally need to learn the context, go through onboarding tasks, learn the culture of the company etc.
+* How involved should you be in their development?
+  * If the mentee is reasonably good at engineering, the role may be to help them understand the domain they are working in, or particular work practices they are new to (i.e. managing people).
+  * This could be helpful even just to initiate them to the _"known" culture_ in the office, the things that everybody _just knows_. It might even be interesting to see what you "know" and where this knowledge has actually come from.
+* What frequency of meetings should you have with a mentee?
+  * Regular enough for you both to be engaged in the project, but not too much to inundate the mentee.
+  * The best way is likely to ask the mentee how often they would like to meet, and review this somewhat regularly. If you work closely in a team and that covers most of the mentoring, you'll likely want less regular formal catch ups.
+* What work exposure should you give a mentee?
+  * Aim to try and give them exposure to people in higher levels of management or importance, such that they can get experience of presenting or meeting people, and also let them see what kinds of roles these people play and the attributes they exhibit.
+* What factors should you consider when deciding to become a mentor?
+  * Do you have enough time? It is not going to be healthy to commit to mentoring someone if you are going to be half-arsed in helping them, as neither of you will gain anything out of it and it may be damaging to the mentee if they struggle to get good mentorship during the early phases of their career/new role.
+
+![pressup](/images/reading_images/press_up.jpeg)
+
+#### Is this like being a fitness coach?
+
+As a fitness coach you want to help someone learn how to train effectively, either by learning new training skills, or by using the equipment around them in new ways. You need to keep the trainee at a level where the exercise is not overwhelming to the point they injure themselves and can't come training the next day, and you want to teach them the fundamentals such that they are able to train whilst they are not in a session with you.
+
+You want to help the trainee achieve their fitness goals, so being aware of these is important so you know the direction they will want to go in, and how you can help them achieve that.
+
+Building a fitness plan and helping them learn new techniques helps you learn how to train people better, and helps your problem solving skills in how to teach someone a particular technique where they were previously struggling. By helping one person out, you improve your ability to help others and expand your own career to more trainees.
 
 ### Tech Leads
 
