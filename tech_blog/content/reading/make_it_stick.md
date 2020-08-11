@@ -22,7 +22,7 @@ This could be the most important book I read this year, given the impact it coul
 1. Learning in the form of a story builds a timeline which people can associate with memories, so commits these stories to memory. Is it possible that people can become more emotionally attached to a story or that they are more likely to reflect on a story later on, which will re-invigorate the memories.
 1. Attempting to find a solution before knowing the answer improves learning, even if the answer you originally get is wrong. There is likely to be some essence of actions and learning requiring some previous knowledge, so it's probably not something to really hold yourself back on. This is also going to help problem solving skills, whether this is in the pattern of understanding how you solved a problem where you previously did not know the solution, or if it mainly just covers that usually the problems you solve will include the solution you have already worked out, I don't know.
 1. If you can perceive the underlying principles of similar sets of problems, you are more likely to be able to recall how to solve a problem and be more likely to pick the correct principle to solve a problem when in unfamiliar problems.
-1. Mechanical repitition has a limit, whilst _elaboration_, the act of taking the knowledge you have gained and expressing it in your own terms is boundless, such that there need be no end to your learning. So this is another good reason for this random blog in that if I can turn what I am reading into cognitive thoughts upon the subject, link it to existing knowledge I had, then the chances of me remembering are much higher. I guess the question on this will be is how much time can I afford myself to be able to effectively re-quiz the concepts in these books or test myself regularly as well as actually have a life :sweat_smile:
+1. Mechanical repetition has a limit, whilst _elaboration_, the act of taking the knowledge you have gained and expressing it in your own terms is boundless, such that there need be no end to your learning. So this is another good reason for this random blog in that if I can turn what I am reading into cognitive thoughts upon the subject, link it to existing knowledge I had, then the chances of me remembering are much higher. I guess the question on this will be is how much time can I afford myself to be able to effectively re-quiz the concepts in these books or test myself regularly as well as actually have a life :sweat_smile:
 
 ![reading_gif](/images/reading_images/baby_reading.gif)
 
@@ -47,3 +47,34 @@ Something which is mentioned regularly which I think has helped my learning is *
 ![deep thought](/images/reading_images/deep_thought.jpeg)
 
 Look into the [Leitner flash card system](https://en.wikipedia.org/wiki/Leitner_system) - where you have four pots of flash cards with 4 levels of difficulty for you remembering. Practice the ones you find hardest most, but make sure you practice with the easier ones relatively regularly too. Practicing _foundation_ knowledge on a less regular basis is key to retaining that knowledge on a level of mastery. If you happen to get one of the easier questions wrong, move it up to the more difficult pot. If you get one right, move it to the lower pot.
+
+
+## In difficulty the answer lies
+
+Easy learning should be a thing of the past. To an extent :smiley_cat: Correlations have shown that when recalling information is more difficult, the actual learning on the back of it is more ingrained in your memory.
+
+The three steps of learning appear to be:
+* _Encoding_, where your initial learnings are adapted into your neural pathways.
+* _Consolidation_, where the neural pathways are cemented through repeated learning.
+* _Retrieval_, re-consolidating the learning you have already made. This helps you retrieve and associate knowledge in relation to what you've learnt.
+
+This chapter re-affirmed that difficulty in learning leads to better results in a longer testing period, even when being tested on a separate technique (similar to the one which they have learnt) which a separate group have practiced regularly through massed learning.
+
+This is regularly told in anecdotes of how people have learnt how to do a certain skill, despite having "zero prior knowledge" in it. It is more likely that the person has a lot of prior knowledge in similar skills, which they have used in varied and spaced situations, and then apply those similar skills to achieve the new skill. By then associating it with their prior knowledge, they are then able to more significantly store their new information.
+
+{{% notice note %}}
+**FAILURE IS IMPORTANT**: This should be ingrained in all people who are trying to learn a new skill - fear of learning prevents future learning. <br><br> Studies have shown that fear of failure takes up cognitive capacity whilst applying yourself, actually limiting your ability to succeed!
+
+{{% /notice %}}
+
+It is important to show students that effortful learning and failing are parts of the learning process, as once they understand that failing is part of the process they are less encumbered by the anxiety and pressure of not getting questions incorrect, and are more likely to apply the whole of their cognitive capacity to solving the problem without trying to find cheats to the answer, or being worried about getting it incorrect on the first attempt. (This should probably exclude absolute guesswork, as that is not really thinking about the problem at hand).
+
+Attempting to solve a problem before being shown the solution has a lot of benefits of _priming_ the brain for learning, in such a way as you will begin to understand how the solution will be helped by understanding the solution, so you can then _plug in_ the knowledge once you have gained it.
+
+This is all part of _Generative Learning_, where people learn by doing, in that people build the knowledge needed by trial and error, and create stronger learning pathways because they have gone through the process of trying something, understanding why it has failed, moving onto the next step, and beginning to understand how this new way might work before failing again. Eventually something will stick, but it won't be long before they fail again at something new where they are testing the boundaries.
+
+These are all cases of _Desirable Difficulties_, where the difficulty is enough to encourage deeper thinking about the problem, reflection on why some paths haven't worked out, before understanding any of the solutions. It is important to note that if no solution is found to difficulties, this does not help too much.
+
+One final instance is to think about an instance of solving a problem on the climbing wall again. Often I've seen people try a problem again and again, failing at particular parts, only to go and spend 5-10 minutes on a different problem before coming back to _flash_ the problem in moments. This is a case for interleaving and spaced learning, where the ability to take your mind off a problem helps it disconnect and start to apply other knowledge to the existing problem you had when you return to it. One professor once exclaimed something similar to me in Edinburgh, where he said the only time he really came up with novel solutions was when he truly understood the problem at hand, but the solution would generally come to him when he was doing something completely arbitrary at another time. The case of your brain cementing the knowledge with other prior knowledge, reflecting & consolidating and applying to new concepts. _Eureka?_
+
+![idea](/images/reading_images/idea.jpeg)
