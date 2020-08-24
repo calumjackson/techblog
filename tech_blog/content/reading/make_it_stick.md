@@ -78,3 +78,19 @@ These are all cases of _Desirable Difficulties_, where the difficulty is enough 
 One final instance is to think about an instance of solving a problem on the climbing wall again. Often I've seen people try a problem again and again, failing at particular parts, only to go and spend 5-10 minutes on a different problem before coming back to _flash_ the problem in moments. This is a case for interleaving and spaced learning, where the ability to take your mind off a problem helps it disconnect and start to apply other knowledge to the existing problem you had when you return to it. One professor once exclaimed something similar to me in Edinburgh, where he said the only time he really came up with novel solutions was when he truly understood the problem at hand, but the solution would generally come to him when he was doing something completely arbitrary at another time. The case of your brain cementing the knowledge with other prior knowledge, reflecting & consolidating and applying to new concepts. _Eureka?_
 
 ![idea](/images/reading_images/idea.jpeg)
+
+## Know Not What You Know
+
+The third chapter is on the _illusion of knowing_, discussing the fallibility of the human brain to illusions and misconceptions where there is either incomplete memory, or where the memory could have been compromised by imagining other cues or memories since the initial events or learnings.
+
+The core concept is drives home the point of Daniel Kahnemmans book, Thinking, Fast and Slow, which describes the two states of the human mind: System 1, and System 2. The former is the intuitive & reactionary system which has ingrained knowledge over time & repeated learning. This is elsewhere referred to as the computer system. The latter is the minds ability of reasoning and decision making based on assessing the environment more carefully.
+
+The brain is inclined to make quick decisions based on prior knowledge in system 1, however this can lead to poor decision making as it can ignore influences and factors which would lead you to take a different route if you had taken a more considered approach.
+
+Accounts which sound true to the reader / listener, particularly if they have resonance with personal experience, are more likely to stick in the memory and embed beliefs even if they are not true. This is a simple example of why people believe cramming and massed learning are good methods of learning, as they have learnt through those methods and have it confirmed by other people telling them it is so. When compelling evidence to show them otherwise is passed to them, it can take a lot to override a belief in system 1.
+
+Experts can be poor teachers based on their _Hindsight Bias_, or the _Curse of Learning_, where they have built strong mental models of the topic being taught and are unable to see where students won't be able to join two concepts together, as they do not yet have the strong knowledge of a separate concept the teacher is expecting them to know. Students ended up being the best of teaching each other, as they are closer to understanding the best way to frame the teaching to the concepts they are currently able to grasp.
+
+We all have differing opinions and views on the same topics. It is often taken that your view on the world is the same as everyone else's. Confirmation Bias adds to this if you listen or read material which matches your own opinion.
+
+People who overestimate their ability when they are unable to do tasks, are often condemned to not being able to improve. Their inability to see their deficits causes them to never leave their safety zone and learn further. It was also important to not overestimate how well you have learnt something, for example dropping a flashcard out of the Leitner system too early. This can prevent the spaced, interleaved recollection from fully taking affect.
