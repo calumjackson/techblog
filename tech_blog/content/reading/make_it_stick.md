@@ -94,3 +94,17 @@ Experts can be poor teachers based on their _Hindsight Bias_, or the _Curse of L
 We all have differing opinions and views on the same topics. It is often taken that your view on the world is the same as everyone else's. Confirmation Bias adds to this if you listen or read material which matches your own opinion.
 
 People who overestimate their ability when they are unable to do tasks, are often condemned to not being able to improve. Their inability to see their deficits causes them to never leave their safety zone and learn further. It was also important to not overestimate how well you have learnt something, for example dropping a flashcard out of the Leitner system too early. This can prevent the spaced, interleaved recollection from fully taking affect.
+
+## Learning Styles are Learning Fails (Sort Of)
+
+The core focus on this chapter is that learning styles are unsupported as concepts, and that whilst there may be some truth in their ideas these are generally empirically non-statistically relevant. However, there is one grouping which is empirically backed:
+
+> Creative Learning, Practical Learning, &  Analytical Learning
+
+These three groupings are shown to be of significance to a persons ability to learn and solve problems within that type; for example a person growing up in the countryside may have a stronger practical understanding of how plants are grown and crops harvested, however they may struggle at an analytical interpretation of their knowledge. This could be part of how Van Gogh saw country people, who he saw as simpler folk but who were much more in tune with their natural surroundings [in comparison to city dwellers]. The environmental aspects of country folk cause them to be much closer to the questions being asked of them by their surroundings, and as such learn from it successfully. City dwellers are not overly exposed to natural environments in such a way, and may struggle to learn as their background in analytical learning would not translate as well to practical learnings.
+
+{{% notice note %}}
+Learning is generally best when it is done in the style of the subject being taught; i.e. using audio to teach music, vobab for poetry, visuals for geometry.
+{{% /notice %}}
+
+Finally, a key point was again that being able to comprehend and extract the underlying principles to a problem were key to being able to translate the problem to different areas & build concepts on top of the originals (i.e. understanding why the cog ratios matter in K-Nex meant you could expand outside the pre-built models that came with the instruction booklet). For example based learners it is useful to take two examples and compare them to start to see the underlying principles in practice. 
