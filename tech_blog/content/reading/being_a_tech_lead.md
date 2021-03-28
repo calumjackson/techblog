@@ -58,6 +58,7 @@ It's not critical that you understand the lowest level of the code, but that you
 
 ![tech lead pic](/images/reading_images/manager_pic.jpg)
 
+
 ##### Planning
 
 Planning a project is important part of being a tech lead. Managing the pieces of a project and designing how they will come together in your delivery plan is important to understanding the whole piece of how and when the project will come together. It doesn't need to be perfect as we know things will go wrong, but even agile setups need a project plan which can be adjusted and manipulated regularly to keep the delivery on track. Agile methodologies generally just break this down into small enough pieces that they would be parts in the stories and sprint planning.
