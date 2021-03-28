@@ -42,6 +42,17 @@ What is Value? A lot of &amp;ldquo;productivity&amp;rdquo; seems to be tradition
     </item>
     
     <item>
+      <title>Cockroach DB</title>
+      <link>https://calumjackson.github.io/techblog/reading/cockroachdb/</link>
+      <pubDate>Sun, 15 Sep 2019 21:38:47 +0100</pubDate>
+      
+      <guid>https://calumjackson.github.io/techblog/reading/cockroachdb/</guid>
+      <description>This piece is based on the white paper for Cockroach DB.
+Fundamentals Cockroach DB is a scalable, cloud based DBMS targeted towards OLTP systems, particularly ones which are geo-distributed.
+Fault tolerance is provided by a min. three replica partitioning in each geo-zone. This is similar to how Cassandra (or StorageOS) works in that all data is replicated across the replicas, and the transaction is not considered committed until there is a quorum of agreement that three replicas have the data.</description>
+    </item>
+    
+    <item>
       <title>Being A Tech Lead</title>
       <link>https://calumjackson.github.io/techblog/reading/being_a_tech_lead/</link>
       <pubDate>Sat, 25 Jul 2020 15:38:47 +0100</pubDate>
@@ -50,6 +61,45 @@ What is Value? A lot of &amp;ldquo;productivity&amp;rdquo; seems to be tradition
       <description>Notes on reading Camille Fournier&amp;rsquo;s The Manager&amp;rsquo;s Path.
 Mentoring Chapter 2, covering mentoring, was a insightful piece into how and why we should place value into mentoring engineers in our working life, whether it is the intern, new hire, or just an engineer in our team trying to learn new skills.
 In the case of the intern, give them a structure involvement in a project which they will be able to contribute to, but give them more than enough time to do this (i.</description>
+    </item>
+    
+    <item>
+      <title>Team Topologies</title>
+      <link>https://calumjackson.github.io/techblog/reading/teamtopologies/</link>
+      <pubDate>Sun, 15 Sep 2019 21:38:47 +0100</pubDate>
+      
+      <guid>https://calumjackson.github.io/techblog/reading/teamtopologies/</guid>
+      <description>Matthew Skelton and Manuel Pais Introduction Pages Types of team The authors suggest there are 4 team types and 3 forms of interaction.
+ Stream aligned - these are the core product streams which will work on a particular service or stream. Enabling - Teams which work on tools which are available for teams to use, such as devops pipelines or automation tooling. Complicated subsystem - teams which focus on software which is mainly proprietary and of significant complexity that it requires a team to work full time on it.</description>
+    </item>
+    
+    <item>
+      <title>Staff Engineer</title>
+      <link>https://calumjackson.github.io/techblog/reading/staff_engineer/</link>
+      <pubDate>Wed, 17 Feb 2021 08:38:47 +0100</pubDate>
+      
+      <guid>https://calumjackson.github.io/techblog/reading/staff_engineer/</guid>
+      <description>Author: Will Larson Context How to think about non-managerial roles in software, which generally are less talked about / recognised as people tend to push people who have good teamwork / collaboration / managerial skills are pushed towards a managerial career path, rather than to what this book refers to as a Staff Engineer, which is the iterations after Senior Engineer where the engineer would still do some coding in a capacity, but would be more orientated towards providing input on aspects like engineering strategy, visions, and helping be the glue which holds the teams together.</description>
+    </item>
+    
+    <item>
+      <title>Monolith To Microservices</title>
+      <link>https://calumjackson.github.io/techblog/reading/monolithtomicroservices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://calumjackson.github.io/techblog/reading/monolithtomicroservices/</guid>
+      <description>Author: Sam Newman
+Context This book covers the steps and strategies needed to decompose a monolithic architecture into a microservices architecture, starting with why you should move to microservices (and if you should), before moving onto the design patterns needed to achieve this. The initial chapters are a good introduction to the subject matter, defining what anyone is likely to want to achieve by moving to microservies, and the other options available outside of microservices.</description>
+    </item>
+    
+    <item>
+      <title>Spark Learnings</title>
+      <link>https://calumjackson.github.io/techblog/reading/whatamilearninginspark/</link>
+      <pubDate>Sun, 15 Sep 2019 21:38:47 +0100</pubDate>
+      
+      <guid>https://calumjackson.github.io/techblog/reading/whatamilearninginspark/</guid>
+      <description>This will all mostly be unreadable trash which I am typing just to try and recall some of the aspects that I have notice when reading through the Spark: The Definitive Guide
+Dataframes Dataframes aren&amp;rsquo;t a spark specific concept, but they are a common usage of data processing to split the data in to shards. These are the pieces in the processing puzzle which will be separated &amp;amp; distributed across parallel process to provide Spark with the partitioned data needed to be able to process in isolation &amp;amp; without duplication.</description>
     </item>
     
   </channel>

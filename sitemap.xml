@@ -67,6 +67,11 @@
   </url>
   
   <url>
+    <loc>https://calumjackson.github.io/techblog/reading/cockroachdb/</loc>
+    <lastmod>2019-09-15T21:38:47+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://calumjackson.github.io/techblog/meetup_ramblings/</loc>
     <lastmod>2019-09-13T17:38:47+01:00</lastmod>
   </url>
@@ -84,6 +89,25 @@
   <url>
     <loc>https://calumjackson.github.io/techblog/qcon_notes/ben_sieglman/</loc>
     <lastmod>2019-09-08T15:59:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://calumjackson.github.io/techblog/reading/teamtopologies/</loc>
+    <lastmod>2019-09-15T21:38:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://calumjackson.github.io/techblog/reading/staff_engineer/</loc>
+    <lastmod>2021-02-17T08:38:47+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://calumjackson.github.io/techblog/reading/monolithtomicroservices/</loc>
+  </url>
+  
+  <url>
+    <loc>https://calumjackson.github.io/techblog/reading/whatamilearninginspark/</loc>
+    <lastmod>2019-09-15T21:38:47+01:00</lastmod>
   </url>
   
   <url>
