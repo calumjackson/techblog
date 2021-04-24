@@ -41,6 +41,7 @@ Visa owns one of the largest independent account clearing house (ACH) networks -
   * Will need to help acquirers understand the changing nature of payments and how the model will affect their business - for example if an acquirer only settles a merchant on a daily basis, there is a increased risk associated where effectively the scheme deductions are liable.
 
 
+
 # Visa Possible Questions
 
   * Why you want to work at Visa? Why do you want this role?
@@ -88,6 +89,7 @@ Visa owns one of the largest independent account clearing house (ACH) networks -
     * Opportunity to be exposed to
 
 
+
 # Influencing Skills
 
 * In the role of E2E orchestration owner, generally I have had to help guide the prioritisation process of where it appears work is needed on the platform which is not seen by individual silos or prioritisation groups outside not involved with the end to end. The place I usually helped influence was by demonstrating a weakness in our integration points, and how improvement there would help deliver significant value which was not always obvious. One case was our delay in payment suspensions based on a manual process, which created a cascading effect of delays to merchant settlement and customer reporting (which used settlement generation data). By showing the improved customer experience possible (we brought in report delivery by 8 hours and all but removed missed payment SLAs), we got the required sponsors for automation of the payment suspension process.
@@ -132,3 +134,57 @@ Similarly, I've regularly worked with business clients to help define the proces
 * Architectural Katas / Self learning vs Course Based / Time allocated for learning?
 
 *
+
+## Questions I Was Asked:
+
+* How have I dealt with painful people to work with?
+  * Usually people need time and space to be heard
+  * PIR example of understanding how people have come to that decision - blameless societys, how do you change the model.
+  * These seemed okay, improve upon actions that came out of it.
+
+* How have you got to where you are?
+  * Story of worldpay - think this was good but could make it more concise. Went through background of how I joined worldpay, worked in test of reports, moved into the design team and leading a team out in Bucharest, which was a new fintech team and needed help understanding the platform. Things I learnt from this were that it wasn't best to spoon feed, it would have been better to set exercises and for them to understand the data models that way.
+  * I would also put a lot more on them to come up with the ideas etc, as my initial way of working was to drive the change but had little buy in from the team as they were less involved. This might have worked with more hierarchical teams but the culture was likely a bit more egalitarian and they wanted to be involved in design.
+
+* Why do you want to leave worldpay
+  * Said that I was quite comfortable at Worldpay - could have said I am in a good position at worldpay _because_ we've got to a position where we're about to drive a lot of change in the platform, around technology and the acquiring background, such as building our regionalisation model. However this was a particularly interesting role to be a part of and will put me a little out of my comfort zone, so is a place where I can learn and grow in my role, and be a part of change in the industry in general. This will start to drive huge growth for both VISA and other acquirers based on the model possible, particulary where an acquirer can start trading in a region it doesn't yet have banking ties with but can be paid out via VISA direct.
+
+* What are your best qualities
+  * This was a good section - conveyed my holistic nature and overall understanding of concepts of business against concepts of technology.
+
+* What do your friends think about you?
+  * Calm, loyal, need to think of a better way to say I can question things without sounding argumentative.
+  * It might be good to contextualise this by mentioning how there are a lot of difficult topics and I like to talk about them with people.
+
+## Things of note
+
+* Mentioned the importance of data and visualising that to the customer
+* Tableau and Power BI as tools to research over coming weeks
+*
+
+# Possible Questions Interview 2
+
+* Stakeholder Management
+  * Despite not managing external clients, have dealt with internal product teams and feeding back to our VP level / CTO level to explain the context of the issues, why this needs resolution, and plan to change.
+* Communication
+  * Communication was not one of my stronger points when I was a kid so this is something I have worked on throughout my career, I've taken positions of leading teams, I've led technical courses for grad joiners in PL/SQL, my role at the moment requires me to convey the mechanisms of the platform and of acquiring regularly for large groups across our global teams as part of releases, or when building impact assessments etc.
+  * One thing I've found since working with offshore teams is how articulate things more slowly and clearly given that listening to a fast talking Yorkshire accent isn't always easy when it's someones second language! Particularly with online meetings now ubiquitous it's important to ensure people are understanding, I personally try to be on camera as much as possible as it not only shows you body language when talking but also when listening, and helps people place better how much you might be taking in.
+* Motivations/Enthusiasm
+  * I'm motivated by solving complex problems which have an interesting business context, really enjoy working with teams to put together those designs and seeing those projects come into being and taking life.
+  * Seeing what is delivered showing value is a great feeling here.
+  * Think it's important to remember as projects become agile that you should be congratulating regularly within the iterations as it's more difficult to determine the end point given that the point of agile is to be able to maintain a continuous state of delivery, but at that point it becomes less obvious when you have achieved something.
+  * I would be really excited to work with other highly motivated groups who are great at sharing knowledge and ideas, and having the prerogative to help bring those ideas to life.
+  * I personally would like to stay close to technical knowledge and to keep up to date with that aspect, even if this role is likely to be more on the product management role - ideally I would use this role to really get to know the VISA Direct product and the way the company works, and use that as a sounding board to moving towards more technical architecture roles.
+  *  
+* Overall working style
+  * Someone who will take the time to understand the problem, generally like to be inquisitive about why decisions are being made and understanding the basis for decisions.
+  * Work best as part of a team who can throw ideas around or plan together, and share information between the teams.
+* Knowledge of Visa and Payments industry
+  * What do I think VISA Direct will bring and how that will work
+    * How VISA direct will drive huge growth into VISA as basically every transaction will be new value as they would have previously been ACH based transactions. That means the turnover and fees gained will grow on a strongly linear growth pattern?
+  * Dynamics of cryptocurrencies and how they will change payments. Though, when does Bitcoin become legitimate? USD Coin is good because it is being pegged to USD so is not of value to horde.
+  * Scheme machinations - fraud monitoring / FX
+  *
+* Data based presentations
+  * Reviewing Tableau and Power BI - both presentations layers built on basically low code platforms - allow you to drop and drag to build datasets and then visualise on top of that.
+  * Not familiar with their GUIs directly, however very experienced at working with data and data models at the database level and building queries which use analytical functions etc to provide information, building to cover data defects, designing functions & queries which would be used to drive decisions within programs, as well as building dashboards for business users in Oracle Apex.
