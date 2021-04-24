@@ -5,12 +5,14 @@ draft: true
 weight: 3
 ---
 
+
 # Key Info
 
 _Push Payments_: Buyer Initiated payments, where buyer provides the card details and then pays the sellers bank account.
   * Push payments are considered non-repudiable (safe to spend immediately) as the buy has authorised the transaction.
   * Reduce payments processing to single transaction management, removing intermediary steps of reconciliation between the two endpoints, and reducing issuer costs associated with payments.
   * Instant payments offer choice to the consumers - gaming is a good industry use case as it returns winnings to keep users at the table.
+  * Acquiring bank pays out to customer, receives debits from VISA on daily(?) basis which the acquirer then has to collect back from merchant.
 
 _Pull Payments_: Supplier Initiated
 
@@ -97,43 +99,8 @@ Visa owns one of the largest independent account clearing house (ACH) networks -
 Similarly, I've regularly worked with business clients to help define the process they want, and drive confidence through prototypes or simple definitions of complex issues to help understanding of the goal the project is aiming to achieve. An example recently was the Australia next day settlement project, where we were not able to hit a next day merchant settlement target as the scheme settlement timelines did not line up to avoid pre-funding.
 
 
-# My Questions
 
-* What is the role meant to entail? Would this usually include travel?
 
-* What technical exposure is there in this role?
-
-* What technology is VISA Direct built on / what type of technologies are we expecting Acquirers to be integrating via?
-
-* How does VISA maintain it's scalability infrastructure
-
-* Where does this career track lead within VISA, is this a lead into software architecture or towards programme management?
-
-* What involvement in soft frameworks would you be expecting vs what I could involve myself in?
-
-* What opportunities are there to teach / be taught at VISA?
-
-* What support would I be offered in being able to build the skills necessary for the role, online learning / courses.
-
-* Is this role intending to help acquirers setup their capabilities with Visa Direct, or to start moving towards working as an acquirer now that instant payments removes part of the liability risk management provided by acquirers?
-
-* What are the organisation and team management aspects of the role going to entail? Will I be managing projects directly, or as an overseer of multiple projects where I would be more likely to delegate planning, and play a prioritisation role etc.
-
-* How come this role wasn't an internal hire?
-
-* How does VISA promote mentorship and sponsorship?
-
-* What are the diversity levels within technology?
-
-* What would the team look like?
-
-* How will Earthport extend the Visa Direct offering? Is that by the ability to build it into the open banking rails?
-
-* Where do you see the growth in Visa Direct over the next 2-3 years?
-
-* Architectural Katas / Self learning vs Course Based / Time allocated for learning?
-
-*
 
 ## Questions I Was Asked:
 
@@ -184,7 +151,48 @@ Similarly, I've regularly worked with business clients to help define the proces
     * How VISA direct will drive huge growth into VISA as basically every transaction will be new value as they would have previously been ACH based transactions. That means the turnover and fees gained will grow on a strongly linear growth pattern?
   * Dynamics of cryptocurrencies and how they will change payments. Though, when does Bitcoin become legitimate? USD Coin is good because it is being pegged to USD so is not of value to horde.
   * Scheme machinations - fraud monitoring / FX
-  *
+
 * Data based presentations
   * Reviewing Tableau and Power BI - both presentations layers built on basically low code platforms - allow you to drop and drag to build datasets and then visualise on top of that.
   * Not familiar with their GUIs directly, however very experienced at working with data and data models at the database level and building queries which use analytical functions etc to provide information, building to cover data defects, designing functions & queries which would be used to drive decisions within programs, as well as building dashboards for business users in Oracle Apex.
+
+* What do I want to gain out of working on this product / team.
+  * Looking at the team that is setup I imagine would work well in that there is a lot I would be looking to learn from the experience of the group, particularly around programme management which isn't in my direct line of experience, where I
+
+# My Questions
+
+* How do you see the team running in terms of splitting work? Who does what, what does a usual week entail? Is it an acquirer each etc?
+
+* What are the organisation and team management aspects of the role going to entail? Will I be managing projects directly, or as an overseer of multiple projects where I would be more likely to delegate planning, and play a prioritisation role etc.
+
+* What technical exposure do you see in the role?
+
+* Where does this career track lead within VISA, is this a lead into software architecture or towards programme management?
+
+* What technology is VISA Direct built on / what type of technologies are we expecting Acquirers to be integrating via?
+
+* What opportunities are there to teach / be taught at VISA? Do you run architectural katas as well as dev days?
+
+* What support would I be offered in being able to build the skills necessary for the role, online learning / courses.
+
+## Other Qs
+
+* How does VISA maintain it's scalability infrastructure
+
+* How come this role wasn't an internal hire?
+
+* How does VISA promote mentorship and sponsorship?
+
+* What are the diversity levels within technology, compared to the model exposed in the face of VISA? Is Visa Europe as representative as VISA Inc looks?
+
+
+
+## Answers to my questions
+
+### Where do you see the growth in Visa Direct over the next 2-3 years?
+
+Stergios saw VISA Direct as the main route of progress within VISA alongside cryptocurrencies (VISAs enablement with USDCOIN) and tokenisation. His aspiration would be that you would not want to work on another product / project for the next 2-3 years. Assuming this was given the amount of change and being the forefront of VISAs product view.
+
+# How will Earthport extend the Visa Direct offering? Is that by the ability to build it into the open banking rails?
+
+Yes basically has been operated as VISA Direct Payouts - which is the banking aspect of this which could revolutionise acquiring as it would allow acquirers to enter new markets as soon as they had acquiring bins rather than having to build the banking integrations with whichever bank is in that region.
