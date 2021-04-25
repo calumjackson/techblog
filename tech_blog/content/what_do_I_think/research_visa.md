@@ -30,7 +30,7 @@ The reach of Visa Direct is 200 countries and territories. These cross border pa
 
 ## Earthport
 
-Visa owns one of the largest independent account clearing house (ACH) networks - so basically now VISA can use push payments through both card and bank rails. This has opened up a large network of accessibility for VISA direct payouts, which furthers the network effect of VISA Direct & therefore increses its growth and value.
+Visa owns one of the largest independent account clearing house (ACH) networks - so basically now VISA can use push payments through both card and bank rails. This has opened up a large network of accessibility for VISA direct payouts, which furthers the network effect of VISA Direct & therefore increases its growth and value.
 
 # Interview
 
@@ -41,6 +41,7 @@ Visa owns one of the largest independent account clearing house (ACH) networks -
   * This will likely also require building product overviews and understanding how customers want to take push payments forward, including understanding what their acquirer platforms help enable and how the features Visa Direct provides can help move them towards new opportunities.
   * This could be a useful place for value chain mapping to show how the landscape will change for companies as they start to embrace push payments.
   * Will need to help acquirers understand the changing nature of payments and how the model will affect their business - for example if an acquirer only settles a merchant on a daily basis, there is a increased risk associated where effectively the scheme deductions are liable.
+  * Building the initial designs of how acquirers will interact with their specific technology landscape.
 
 
 
@@ -142,7 +143,6 @@ Similarly, I've regularly worked with business clients to help define the proces
   * Think it's important to remember as projects become agile that you should be congratulating regularly within the iterations as it's more difficult to determine the end point given that the point of agile is to be able to maintain a continuous state of delivery, but at that point it becomes less obvious when you have achieved something.
   * I would be really excited to work with other highly motivated groups who are great at sharing knowledge and ideas, and having the prerogative to help bring those ideas to life.
   * I personally would like to stay close to technical knowledge and to keep up to date with that aspect, even if this role is likely to be more on the product management role - ideally I would use this role to really get to know the VISA Direct product and the way the company works, and use that as a sounding board to moving towards more technical architecture roles.
-  *  
 * Overall working style
   * Someone who will take the time to understand the problem, generally like to be inquisitive about why decisions are being made and understanding the basis for decisions.
   * Work best as part of a team who can throw ideas around or plan together, and share information between the teams.
@@ -151,6 +151,16 @@ Similarly, I've regularly worked with business clients to help define the proces
     * How VISA direct will drive huge growth into VISA as basically every transaction will be new value as they would have previously been ACH based transactions. That means the turnover and fees gained will grow on a strongly linear growth pattern?
   * Dynamics of cryptocurrencies and how they will change payments. Though, when does Bitcoin become legitimate? USD Coin is good because it is being pegged to USD so is not of value to horde.
   * Scheme machinations - fraud monitoring / FX
+
+* Working with senior management
+  * Had exposure of reporting and working with CTO level, explaining technical & business problems we have had in the platform, their impact to the customer / business, and how we can resolve this and what we would need from them - so both from a PIR point of view and helping drive the planning for the change needed (i.e. on our reporting SLAs, how we needed to prioritise automating payment suspensions to expedite our reporting SLAs with the added benefit of reducing settlement risk and alleviating manual work in the risk team.
+  * Work relatively closely with senior management within the platform anyway as a part of my role, usually would be a reliable source to build the technical and business impact of any changes on the platform and their risk - usually I would draw up possible risks through consultation and delegate any quantitive stats for the teams to provide as they are closer to their actual products.
+  * Represented Worldpay at client integration meetings with Tesco in the early months of my role when the platform was still in it's infancy, however since then implementation managers have taken over that aspect as customers have migrated over and implementation managers built their knowledge of the capabilities of the platform.  
+
+* How would I engage a client?
+  * I would largely want to question them on their goals in acquiring first, understand what they want out of VISA Direct as a product, and then build on their requirements/scope to give a view of how technologically we can achieve that, what the key boundaries we need to progress with are (risk, reporting, etc) to start to go live, how that fits into their delivery model (is it agile, six sigma, lean, waterfall etc).
+  * Use of value chain mapping could be useful to expose to acquirers how their business model can progress.
+  * Would likely be useful to draw up tech models to understand what product they are expecting, and to start to draw up how this scales etc.
 
 * Data based presentations
   * Reviewing Tableau and Power BI - both presentations layers built on basically low code platforms - allow you to drop and drag to build datasets and then visualise on top of that.
@@ -177,6 +187,8 @@ Similarly, I've regularly worked with business clients to help define the proces
 
 ## Other Qs
 
+* How does the climate 2040 pledge align with VISAs cryptocurrency / blockchain strategy?
+
 * How does VISA maintain it's scalability infrastructure
 
 * How come this role wasn't an internal hire?
@@ -184,7 +196,6 @@ Similarly, I've regularly worked with business clients to help define the proces
 * How does VISA promote mentorship and sponsorship?
 
 * What are the diversity levels within technology, compared to the model exposed in the face of VISA? Is Visa Europe as representative as VISA Inc looks?
-
 
 
 ## Answers to my questions
@@ -196,3 +207,15 @@ Stergios saw VISA Direct as the main route of progress within VISA alongside cry
 # How will Earthport extend the Visa Direct offering? Is that by the ability to build it into the open banking rails?
 
 Yes basically has been operated as VISA Direct Payouts - which is the banking aspect of this which could revolutionise acquiring as it would allow acquirers to enter new markets as soon as they had acquiring bins rather than having to build the banking integrations with whichever bank is in that region.
+
+
+## How prepared do I feel?
+
+I am feeling like I have a good position of creating a nicely balanced team with the two people interviewing, as they have backgrounds in business, risk, and program management which would work nicely with my technical knowledge and acquiring knowledge in terms of bridging these conversations with clients from a technology perspective - how will the acquirer integrate with VISA, what problems should they expect to hit, how have other acquirers dealt with those issues, and _how might they build this to scale_.
+
+My experience working on the architectural elevator allowed me to move between the leadership teams to help them in putting technical and business context to their decision making, as well as to work with the developers to understand the fundamental issues of the
+problems we are seeing and how we can go about solving them, with all the layers inbetween.
+
+Data visulisation and presentation I don't feel too worried about on the caveat that despite having no formal experience in Tableau and PowerBI, I am well versed in the fundamentals of database querying and providing insights from data which can help with decision making. Low code visualisation programs I don't really expect to be a barrier as I've built these kind of visualisations based on my own handwritten queries using analytical functions, and have an excellent understanding of relational databases.
+
+Generally I have been working relatively independently as a solution architect, moving across projects to help bring them together from an end to end perspective and helping build the view of how we can deliver this. Generally this has been why I have not been involved in the planning as heavily as given the scope of projects across the platform (for example, from a operational perspective we have increased our platforms automated procedures by 300% since I took the role). I have proven myself as being able to enter a project, build a context quickly, and help deliver the solution - to the point where I am a go to person for this which we've had to push back on as it became detrimental to the time I was available to put to projects. One piece was our customer integration into our acquiring system, as the file based merchant refresh was causing issues on the authorisation system (which was outside the platform). I helped bring the teams together to understand the problem, we built a design to alleviate the issue and then planned it's delivery into production over the next couple of releases by solving the key issues first which were causing live issues and having the strategic fixes to the problems on our backlog for the product owners to take ownership of.
