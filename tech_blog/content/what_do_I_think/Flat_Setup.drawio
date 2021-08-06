@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-08-06T20:24:50.812Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="vPew-AkSUoqWhAwOVh5k" version="14.9.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-08-06T20:53:23.263Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36" etag="bVQ13mgI1MusjNLwajsu" version="14.9.4" type="github" pages="2">
   <diagram id="druhfETbFBSyGkSbb73c" name="Battersea Reach">
-    <mxGraphModel dx="786" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="927" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="925" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="927" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,6 +79,9 @@
         <mxCell id="8Y6gkMLPE6iw89qjJmYW-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="464" y="240" width="10" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="0Mkpy5zgQLaZT1bcSFLE-1" value="Sofa" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="140" y="340" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -101,6 +104,21 @@
         </mxCell>
         <mxCell id="ZYMKqe1IJGEOacw6ZTmr-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#eeeeee;strokeColor=#36393d;" vertex="1" parent="ZYMKqe1IJGEOacw6ZTmr-1">
           <mxGeometry x="480" y="310" width="90" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="d3RasZPPqcMWsvOIKXUK-0" value="Bed" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;rotation=0;" vertex="1" parent="ZYMKqe1IJGEOacw6ZTmr-1">
+          <mxGeometry x="540" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uC5aiSBGLv3QAxdQuIUc-0" value="Bed" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;rotation=0;" vertex="1" parent="ZYMKqe1IJGEOacw6ZTmr-1">
+          <mxGeometry x="140" y="200" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g7hOZu0ZxPJUqNHqu4ER-0" value="Desk" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;rotation=-90;" vertex="1" parent="ZYMKqe1IJGEOacw6ZTmr-1">
+          <mxGeometry x="90" y="290" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="JzX7HWhOgy52Wni7Lj_o-0" value="WD" style="rounded=0;whiteSpace=wrap;html=1;horizontal=0;fontSize=10;rotation=-90;" vertex="1" parent="ZYMKqe1IJGEOacw6ZTmr-1">
+          <mxGeometry x="145" y="330" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="-n6iUhinFfsBnPHUAkWO-0" value="Sofa" style="rounded=0;whiteSpace=wrap;html=1;fontSize=10;rotation=90;" vertex="1" parent="ZYMKqe1IJGEOacw6ZTmr-1">
+          <mxGeometry x="625" y="248" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
