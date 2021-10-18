@@ -1,3 +1,4 @@
+
 ---
 title: "Research"
 date: 2020-06-28T21:38:47+01:00
@@ -169,6 +170,9 @@ Similarly, I've regularly worked with business clients to help define the proces
 * What do I want to gain out of working on this product / team.
   * Looking at the team that is setup I imagine would work well in that there is a lot I would be looking to learn from the experience of the group, particularly around programme management which isn't in my direct line of experience, where I
 
+* Knowledge of VISA and  Payments
+  * VISA is historically a card scheme within the four party model, which would provide the interface into the issuers from the acquirers and originators. This interfaces is managed via providing customers with cards which are linked directly to a customer bank account, and when a merchant takes a transaction at the POS, the
+
 # My Questions
 
 * How do you see the team running in terms of splitting work? Who does what, what does a usual week entail? Is it an acquirer each etc?
@@ -219,3 +223,16 @@ problems we are seeing and how we can go about solving them, with all the layers
 Data visulisation and presentation I don't feel too worried about on the caveat that despite having no formal experience in Tableau and PowerBI, I am well versed in the fundamentals of database querying and providing insights from data which can help with decision making. Low code visualisation programs I don't really expect to be a barrier as I've built these kind of visualisations based on my own handwritten queries using analytical functions, and have an excellent understanding of relational databases.
 
 Generally I have been working relatively independently as a solution architect, moving across projects to help bring them together from an end to end perspective and helping build the view of how we can deliver this. Generally this has been why I have not been involved in the planning as heavily as given the scope of projects across the platform (for example, from a operational perspective we have increased our platforms automated procedures by 300% since I took the role). I have proven myself as being able to enter a project, build a context quickly, and help deliver the solution - to the point where I am a go to person for this which we've had to push back on as it became detrimental to the time I was available to put to projects. One piece was our customer integration into our acquiring system, as the file based merchant refresh was causing issues on the authorisation system (which was outside the platform). I helped bring the teams together to understand the problem, we built a design to alleviate the issue and then planned it's delivery into production over the next couple of releases by solving the key issues first which were causing live issues and having the strategic fixes to the problems on our backlog for the product owners to take ownership of.
+
+#### Sean Pitman
+* Experience leading product, particualy start up and close down of a small product. Likely to be well versed in
+
+#### Stuart Bowes
+*
+
+Both recent hires from Natwest, so outside of the finextra .
+
+####
+
+# Key
+66dML6uVT2zD454y

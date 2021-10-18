@@ -1,3 +1,10 @@
+---
+title: "Research v2"
+date: 2020-06-28T21:38:47+01:00
+draft: true
+weight: 3
+---
+
 ##  What is tokenisation
 
 Conversion of the 16 digit card number into a token, which can be used in a more secure landscape given it can be restricted in use to certain devices, certain merchants, or certain transaction types.
@@ -16,7 +23,7 @@ The merchant will send the token to the acquirer, who will authorise with VISA /
 # Aim for the interview
 
 * What will the role entail? What does a typical day look like?
-* Am I suitable for the role?
+* Am I suitable for the role? Visa SA vs Worldpay SA
 * Experience for Senior level
   * Brand myself as a junior SA, as I've had experience in the role, and may be able to carry a Senior role but would also be happy to build that experience up over the coming years.
   * Would like to test myself in different environments and challenges, and VISA being a such a world renowned institution provides a level to do that.
@@ -36,3 +43,5 @@ The merchant will send the token to the acquirer, who will authorise with VISA /
 * Ownership on direction of product?
 
 * Knowledge sharing and learning within the team?
+
+* 
