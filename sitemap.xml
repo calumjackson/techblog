@@ -1,128 +1,82 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://calumjackson.github.io/techblog/reading/wardley_maps/</loc>
+    <loc>https://www.calumjackson.co.uk/reading/wardley_maps/</loc>
     <lastmod>2019-09-15T21:38:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/what_do_i_think/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/what_do_i_think/</loc>
     <lastmod>2019-09-15T21:32:53+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/meetup_ramblings/storageos/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/meetup_ramblings/storageos/</loc>
     <lastmod>2019-09-13T15:59:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/qcon_notes/randy_shoup/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/qcon_notes/randy_shoup/</loc>
     <lastmod>2019-08-31T17:38:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/reading/make_it_stick/</loc>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/reading/boiling_frogs/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/reading/make_it_stick/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/reading/boiling_frogs/</loc>
     <lastmod>2019-09-15T21:38:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/reading/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/reading/</loc>
     <lastmod>2019-09-15T21:32:53+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/meetup_ramblings/snowplowandmonzo/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/meetup_ramblings/snowplowandmonzo/</loc>
     <lastmod>2019-09-13T15:59:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/qcon_notes/andy_walker/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/qcon_notes/andy_walker/</loc>
     <lastmod>2019-09-08T15:59:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/what_do_i_think/whoisboredofwfh/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/what_do_i_think/whoisboredofwfh/</loc>
     <lastmod>2020-06-28T21:38:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/meetup_ramblings/bulb/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/meetup_ramblings/bulb/</loc>
     <lastmod>2019-09-24T15:59:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/qcon_notes/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/qcon_notes/</loc>
     <lastmod>2019-09-04T17:32:53+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/qcon_notes/simon_wardley/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/qcon_notes/simon_wardley/</loc>
     <lastmod>2019-08-31T17:38:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/reading/cockroachdb/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/reading/cockroachdb/</loc>
     <lastmod>2019-09-15T21:38:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/meetup_ramblings/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/meetup_ramblings/</loc>
     <lastmod>2019-09-13T17:38:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/qcon_notes/trisha_gee/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/qcon_notes/trisha_gee/</loc>
     <lastmod>2019-09-10T17:38:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/reading/being_a_tech_lead/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/reading/being_a_tech_lead/</loc>
     <lastmod>2020-07-25T15:38:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/qcon_notes/ben_sieglman/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/qcon_notes/ben_sieglman/</loc>
     <lastmod>2019-09-08T15:59:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/reading/teamtopologies/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/reading/teamtopologies/</loc>
     <lastmod>2019-09-15T21:38:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/reading/staff_engineer/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/reading/staff_engineer/</loc>
     <lastmod>2021-02-17T08:38:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/reading/monolithtomicroservices/</loc>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/reading/whatamilearninginspark/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/reading/monolithtomicroservices/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/reading/whatamilearninginspark/</loc>
     <lastmod>2019-09-15T21:38:47+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/reading/buildingculture/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/</loc>
     <lastmod>2019-08-31T17:32:53+01:00</lastmod>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/other_stuff/good_pubs/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/categories/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/other_stuff/</loc>
+  </url><url>
+    <loc>https://www.calumjackson.co.uk/tags/</loc>
   </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://calumjackson.github.io/techblog/tags/</loc>
-    <priority>0</priority>
-  </url>
-  
 </urlset>

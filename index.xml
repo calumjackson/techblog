@@ -1,31 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>index on Tech Blog</title>
-    <link>https://calumjackson.github.io/techblog/</link>
+    <link>https://www.calumjackson.co.uk/</link>
     <description>Recent content in index on Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Aug 2019 17:32:53 +0100</lastBuildDate>
-    
-	<atom:link href="https://calumjackson.github.io/techblog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 31 Aug 2019 17:32:53 +0100</lastBuildDate><atom:link href="https://www.calumjackson.co.uk/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simon Wardley: Map Notes</title>
-      <link>https://calumjackson.github.io/techblog/reading/wardley_maps/</link>
+      <link>https://www.calumjackson.co.uk/reading/wardley_maps/</link>
       <pubDate>Sun, 15 Sep 2019 21:38:47 +0100</pubDate>
       
-      <guid>https://calumjackson.github.io/techblog/reading/wardley_maps/</guid>
+      <guid>https://www.calumjackson.co.uk/reading/wardley_maps/</guid>
       <description>This is an extension of the Wardley Maps talk I have mentioned in the QCon section, and largely comes from Simon&amp;rsquo;s extensive book in the creative commons as he called it.</description>
     </item>
     
     <item>
       <title>Kubernetes: 05/09</title>
-      <link>https://calumjackson.github.io/techblog/meetup_ramblings/storageos/</link>
+      <link>https://www.calumjackson.co.uk/meetup_ramblings/storageos/</link>
       <pubDate>Fri, 13 Sep 2019 15:59:47 +0100</pubDate>
       
-      <guid>https://calumjackson.github.io/techblog/meetup_ramblings/storageos/</guid>
+      <guid>https://www.calumjackson.co.uk/meetup_ramblings/storageos/</guid>
       <description>My. First. Meetup.
 I turned up to this as a lone ranger, without knowing what to really expect other than the possibility of free beer and pizza! The CodeNode I was aware of from a previous Worldpay &amp;ldquo;mini tech conference&amp;rdquo; back in 2017, and has a cool setup. Note: maybe we should encourage someone to do another tech conference.
 This meetup had been organised by Infrastructure as Code, under the Skills matter umbrella.</description>
@@ -33,10 +29,10 @@ This meetup had been organised by Infrastructure as Code, under the Skills matte
     
     <item>
       <title>Randy Shoup: Performance Culture</title>
-      <link>https://calumjackson.github.io/techblog/qcon_notes/randy_shoup/</link>
+      <link>https://www.calumjackson.co.uk/qcon_notes/randy_shoup/</link>
       <pubDate>Sat, 31 Aug 2019 17:38:47 +0100</pubDate>
       
-      <guid>https://calumjackson.github.io/techblog/qcon_notes/randy_shoup/</guid>
+      <guid>https://www.calumjackson.co.uk/qcon_notes/randy_shoup/</guid>
       <description>Randy took the time to talk through High Performance Culture, and how to build and scale it. This was my favourite talk of the conference.
 Randy went through a lot of material verrry quickly, but all of it was super interesting.
 Initially he basically talked through the accelerate [accelerate] book at a super high level, and the key notes he took which lead into his points in the rest of the talk.</description>
@@ -44,10 +40,10 @@ Initially he basically talked through the accelerate [accelerate] book at a supe
     
     <item>
       <title>Make It Stick</title>
-      <link>https://calumjackson.github.io/techblog/reading/make_it_stick/</link>
+      <link>https://www.calumjackson.co.uk/reading/make_it_stick/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://calumjackson.github.io/techblog/reading/make_it_stick/</guid>
+      <guid>https://www.calumjackson.co.uk/reading/make_it_stick/</guid>
       <description>Authors Peter Brown, Mark McDaniel, Henry Roediger
 First Thoughts This could be the most important book I read this year, given the impact it could have upon my ability to learn and retrieve information.
 Key Learning Concepts  Retrieval practice is important to cementing knowledge in your mind and preventing forgetfulness of a subject. Interleaving learning increases retrieval practice implicitly, as you essentially have to do some form of retrieval to remember where you are in the context of reading / learning.</description>
@@ -55,20 +51,20 @@ Key Learning Concepts  Retrieval practice is important to cementing knowledge in
     
     <item>
       <title>Boiling Frogs</title>
-      <link>https://calumjackson.github.io/techblog/reading/boiling_frogs/</link>
+      <link>https://www.calumjackson.co.uk/reading/boiling_frogs/</link>
       <pubDate>Sun, 15 Sep 2019 21:38:47 +0100</pubDate>
       
-      <guid>https://calumjackson.github.io/techblog/reading/boiling_frogs/</guid>
+      <guid>https://www.calumjackson.co.uk/reading/boiling_frogs/</guid>
       <description>This paper is on tackling the inertia &amp;amp; collaboration issues commonly found in government organisations. These are being seen as a blockers to building a transformative company that can react to change at the pace required.
 What is Value? A lot of &amp;ldquo;productivity&amp;rdquo; seems to be traditionally monitored by work output, which really masks the real focus of productivity which is the actual output to the customer, for example delivering a feature which allows a customer to do a task in half the time, rather than delivering five features of which no tangible customer value can be associated.</description>
     </item>
     
     <item>
       <title>Data Analytics: 12/09</title>
-      <link>https://calumjackson.github.io/techblog/meetup_ramblings/snowplowandmonzo/</link>
+      <link>https://www.calumjackson.co.uk/meetup_ramblings/snowplowandmonzo/</link>
       <pubDate>Fri, 13 Sep 2019 15:59:47 +0100</pubDate>
       
-      <guid>https://calumjackson.github.io/techblog/meetup_ramblings/snowplowandmonzo/</guid>
+      <guid>https://www.calumjackson.co.uk/meetup_ramblings/snowplowandmonzo/</guid>
       <description>My. Second. Meetup.
 This meet-up was organised by the Data Council.ai team, and had a couple of switched on presenters:
  Snow Plow Monzo pgAudit  Snow Plow The first of many Stephen&amp;rsquo;s on stage this evening was from Snow Plow (the meetup sponsor), who are a data analytics platform (still not sure how well used that term is generally - is this something that is used to build other services on?</description>
@@ -76,40 +72,40 @@ This meet-up was organised by the Data Council.ai team, and had a couple of swit
     
     <item>
       <title>Andy Walker: Zombie Apocalypse</title>
-      <link>https://calumjackson.github.io/techblog/qcon_notes/andy_walker/</link>
+      <link>https://www.calumjackson.co.uk/qcon_notes/andy_walker/</link>
       <pubDate>Sun, 08 Sep 2019 15:59:47 +0100</pubDate>
       
-      <guid>https://calumjackson.github.io/techblog/qcon_notes/andy_walker/</guid>
+      <guid>https://www.calumjackson.co.uk/qcon_notes/andy_walker/</guid>
       <description>The naming of this presentation initially put me off, as it seemed somewhat outside of the nature of the conference. However, How to Survive the Zombie Apocalypse ended up being a useful forewarning &amp;amp; guide on how to manage oneself throughout your career, and how to help others with this.
 The majority of the presentation seemed common sense, however these were the points which are not always focused on and unless you begin to think about them, are not clear - you can struggle to see where you can help yourself if you aren&amp;rsquo;t looking from outside an isolated perspective of yourself.</description>
     </item>
     
     <item>
       <title>Is Anyone Bored of WFH?</title>
-      <link>https://calumjackson.github.io/techblog/what_do_i_think/whoisboredofwfh/</link>
+      <link>https://www.calumjackson.co.uk/what_do_i_think/whoisboredofwfh/</link>
       <pubDate>Sun, 28 Jun 2020 21:38:47 +0100</pubDate>
       
-      <guid>https://calumjackson.github.io/techblog/what_do_i_think/whoisboredofwfh/</guid>
+      <guid>https://www.calumjackson.co.uk/what_do_i_think/whoisboredofwfh/</guid>
       <description>How are you finding the brave new world of working from home; Is it all relaxed meetings in pyjamas and smoothies in the morning, or is it entertaining bored kids and partners.
 This blog is is all looking at little late in the COVID day now, but whilst lockdown is being loosened across countries, WFH cultures are likely to persist until certainty around safety in offices &amp;amp; travel is acceptable, and we may be experiencing (or wanting) more working from home in general in the future.</description>
     </item>
     
     <item>
       <title>Terraform &amp; Devops: 24/09</title>
-      <link>https://calumjackson.github.io/techblog/meetup_ramblings/bulb/</link>
+      <link>https://www.calumjackson.co.uk/meetup_ramblings/bulb/</link>
       <pubDate>Tue, 24 Sep 2019 15:59:47 +0100</pubDate>
       
-      <guid>https://calumjackson.github.io/techblog/meetup_ramblings/bulb/</guid>
+      <guid>https://www.calumjackson.co.uk/meetup_ramblings/bulb/</guid>
       <description>Today was a wet day. The first real rain we&amp;rsquo;ve seen this side of summer and all of London fell to pieces. Liverpool St station was flooding, Tfl was breaking down, and the imposing entrance of the Broadgate Business Centre was miserably out of action as I arrived at this meetup. Luckily the talks were less miserable, iiiiffff slightly vague, deep, and near comical.
 Scott Logic on Devops Quite a good overview on how devops is not a tooling piece but a set of cultures which incoporate aspects such as good tooling, CI/CD, agile/lean, etc to create a steamlined deployment process with high levels of monitoring, automation, and focus on reducing pain of operations.</description>
     </item>
     
     <item>
       <title>Simon Wardley: Maps</title>
-      <link>https://calumjackson.github.io/techblog/qcon_notes/simon_wardley/</link>
+      <link>https://www.calumjackson.co.uk/qcon_notes/simon_wardley/</link>
       <pubDate>Sat, 31 Aug 2019 17:38:47 +0100</pubDate>
       
-      <guid>https://calumjackson.github.io/techblog/qcon_notes/simon_wardley/</guid>
+      <guid>https://www.calumjackson.co.uk/qcon_notes/simon_wardley/</guid>
       <description>Hadn&amp;rsquo;t seen this presentation, but had heard it was good from colleagues. Having watched a few times, he is a very confident talker who keeps you engaged at all times.
 The main thing I took away from the talk was how clear and concise his observations, comments, and articulations were. It was a well put together piece, which has probably been practiced across the land!
 Whether this was due to the Wardley Maps or his own charisma, I can&amp;rsquo;t comment, but imagine it would be both.</description>
@@ -117,10 +113,10 @@ Whether this was due to the Wardley Maps or his own charisma, I can&amp;rsquo;t 
     
     <item>
       <title>Cockroach DB</title>
-      <link>https://calumjackson.github.io/techblog/reading/cockroachdb/</link>
+      <link>https://www.calumjackson.co.uk/reading/cockroachdb/</link>
       <pubDate>Sun, 15 Sep 2019 21:38:47 +0100</pubDate>
       
-      <guid>https://calumjackson.github.io/techblog/reading/cockroachdb/</guid>
+      <guid>https://www.calumjackson.co.uk/reading/cockroachdb/</guid>
       <description>This piece is based on the white paper for Cockroach DB.
 Fundamentals Cockroach DB is a scalable, cloud based DBMS targeted towards OLTP systems, particularly ones which are geo-distributed.
 Fault tolerance is provided by a min. three replica partitioning in each geo-zone. This is similar to how Cassandra (or StorageOS) works in that all data is replicated across the replicas, and the transaction is not considered committed until there is a quorum of agreement that three replicas have the data.</description>
@@ -128,20 +124,20 @@ Fault tolerance is provided by a min. three replica partitioning in each geo-zon
     
     <item>
       <title>Trisha Gee: Buzzzwords</title>
-      <link>https://calumjackson.github.io/techblog/qcon_notes/trisha_gee/</link>
+      <link>https://www.calumjackson.co.uk/qcon_notes/trisha_gee/</link>
       <pubDate>Tue, 10 Sep 2019 17:38:47 +0100</pubDate>
       
-      <guid>https://calumjackson.github.io/techblog/qcon_notes/trisha_gee/</guid>
+      <guid>https://www.calumjackson.co.uk/qcon_notes/trisha_gee/</guid>
       <description>Trisha was talking about how to improve your career by being aware of buzzwords and key phrases. This wasn&amp;rsquo;t so much to deceive people by pretending that you knew what you were talking about, but to be aware of what the current trends are so that you can pay attention when you notice interesting articles with those buzzwords.
 The majority of the talk was around picking out interesting articles, saving them to a close to hand reading app, like Pocket, or Medium, which allow you save the articles for later reading.</description>
     </item>
     
     <item>
       <title>Being A Tech Lead</title>
-      <link>https://calumjackson.github.io/techblog/reading/being_a_tech_lead/</link>
+      <link>https://www.calumjackson.co.uk/reading/being_a_tech_lead/</link>
       <pubDate>Sat, 25 Jul 2020 15:38:47 +0100</pubDate>
       
-      <guid>https://calumjackson.github.io/techblog/reading/being_a_tech_lead/</guid>
+      <guid>https://www.calumjackson.co.uk/reading/being_a_tech_lead/</guid>
       <description>Notes on reading Camille Fournier&amp;rsquo;s The Manager&amp;rsquo;s Path.
 Mentoring Chapter 2, covering mentoring, was a insightful piece into how and why we should place value into mentoring engineers in our working life, whether it is the intern, new hire, or just an engineer in our team trying to learn new skills.
 In the case of the intern, give them a structure involvement in a project which they will be able to contribute to, but give them more than enough time to do this (i.</description>
@@ -149,10 +145,10 @@ In the case of the intern, give them a structure involvement in a project which 
     
     <item>
       <title>Ben Sieglman: Microservice</title>
-      <link>https://calumjackson.github.io/techblog/qcon_notes/ben_sieglman/</link>
+      <link>https://www.calumjackson.co.uk/qcon_notes/ben_sieglman/</link>
       <pubDate>Sun, 08 Sep 2019 15:59:47 +0100</pubDate>
       
-      <guid>https://calumjackson.github.io/techblog/qcon_notes/ben_sieglman/</guid>
+      <guid>https://www.calumjackson.co.uk/qcon_notes/ben_sieglman/</guid>
       <description>Ben was an engineer at Google since the early years (2003),
 I didn&amp;rsquo;t really listen to this much
  Video Link</description>
@@ -160,41 +156,61 @@ I didn&amp;rsquo;t really listen to this much
     
     <item>
       <title>Team Topologies</title>
-      <link>https://calumjackson.github.io/techblog/reading/teamtopologies/</link>
+      <link>https://www.calumjackson.co.uk/reading/teamtopologies/</link>
       <pubDate>Sun, 15 Sep 2019 21:38:47 +0100</pubDate>
       
-      <guid>https://calumjackson.github.io/techblog/reading/teamtopologies/</guid>
+      <guid>https://www.calumjackson.co.uk/reading/teamtopologies/</guid>
       <description>Matthew Skelton and Manuel Pais Introduction Pages Types of team The authors suggest there are 4 team types and 3 forms of interaction.
  Stream aligned - these are the core product streams which will work on a particular service or stream. Enabling - Teams which work on tools which are available for teams to use, such as devops pipelines or automation tooling. Complicated subsystem - teams which focus on software which is mainly proprietary and of significant complexity that it requires a team to work full time on it.</description>
     </item>
     
     <item>
       <title>Staff Engineer</title>
-      <link>https://calumjackson.github.io/techblog/reading/staff_engineer/</link>
+      <link>https://www.calumjackson.co.uk/reading/staff_engineer/</link>
       <pubDate>Wed, 17 Feb 2021 08:38:47 +0100</pubDate>
       
-      <guid>https://calumjackson.github.io/techblog/reading/staff_engineer/</guid>
+      <guid>https://www.calumjackson.co.uk/reading/staff_engineer/</guid>
       <description>Author: Will Larson Context How to think about non-managerial roles in software, which generally are less talked about / recognised as people tend to push people who have good teamwork / collaboration / managerial skills are pushed towards a managerial career path, rather than to what this book refers to as a Staff Engineer, which is the iterations after Senior Engineer where the engineer would still do some coding in a capacity, but would be more orientated towards providing input on aspects like engineering strategy, visions, and helping be the glue which holds the teams together.</description>
     </item>
     
     <item>
       <title>Monolith To Microservices</title>
-      <link>https://calumjackson.github.io/techblog/reading/monolithtomicroservices/</link>
+      <link>https://www.calumjackson.co.uk/reading/monolithtomicroservices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://calumjackson.github.io/techblog/reading/monolithtomicroservices/</guid>
+      <guid>https://www.calumjackson.co.uk/reading/monolithtomicroservices/</guid>
       <description>Author: Sam Newman
 Context This book covers the steps and strategies needed to decompose a monolithic architecture into a microservices architecture, starting with why you should move to microservices (and if you should), before moving onto the design patterns needed to achieve this. The initial chapters are a good introduction to the subject matter, defining what anyone is likely to want to achieve by moving to microservies, and the other options available outside of microservices.</description>
     </item>
     
     <item>
       <title>Spark Learnings</title>
-      <link>https://calumjackson.github.io/techblog/reading/whatamilearninginspark/</link>
+      <link>https://www.calumjackson.co.uk/reading/whatamilearninginspark/</link>
       <pubDate>Sun, 15 Sep 2019 21:38:47 +0100</pubDate>
       
-      <guid>https://calumjackson.github.io/techblog/reading/whatamilearninginspark/</guid>
+      <guid>https://www.calumjackson.co.uk/reading/whatamilearninginspark/</guid>
       <description>This will all mostly be unreadable trash which I am typing just to try and recall some of the aspects that I have notice when reading through the Spark: The Definitive Guide
 Dataframes Dataframes aren&amp;rsquo;t a spark specific concept, but they are a common usage of data processing to split the data in to shards. These are the pieces in the processing puzzle which will be separated &amp;amp; distributed across parallel process to provide Spark with the partitioned data needed to be able to process in isolation &amp;amp; without duplication.</description>
+    </item>
+    
+    <item>
+      <title>On Building a Great Culture</title>
+      <link>https://www.calumjackson.co.uk/reading/buildingculture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.calumjackson.co.uk/reading/buildingculture/</guid>
+      <description>Context On finding the HBR&amp;rsquo;s collection of articles of culture in a bookshop sale block, it was almost predetermined I would buy it given my interest spiking in culture&amp;rsquo;s impact post the takeover of Worldpay.
+I&amp;rsquo;ve left it quite late in the reading process to write about this so a lot of it may be mis-remembered!
+Tempered Radicals Starting with the final article, which fortunately won&amp;rsquo;t give away the end of the story, is to focus on how people can make significant impacts to culture through small and seemingly mundane changes, rather than explosive and significant changes.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://www.calumjackson.co.uk/other_stuff/good_pubs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.calumjackson.co.uk/other_stuff/good_pubs/</guid>
+      <description></description>
     </item>
     
   </channel>
