@@ -1,4 +1,6 @@
-baseURL = "https://calumjackson.github.io/techblog/"
+#baseURL = "https://calumjackson.github.io/techblog/"
+baseURL = "https://www.calumjackson.co.uk"
+
 languageCode = "en-us"
 title = "Tech Blog"
 publishDir = "../build"
@@ -11,3 +13,13 @@ disqusShortname = "cjtechdiscuss"
 
 [params]
   themeVariant = "cj"
+
+[deployment]
+name = "gcs-deployment"
+
+[[deployment.targets]]
+# An arbitrary name for this target.
+name = "cj-deployment"
+# The Go Cloud Development Kit URL to deploy to. Examples:
+# GCS; see https://gocloud.dev/howto/blob/#gcs
+URL = "gs://cj-hugo-test-site"
