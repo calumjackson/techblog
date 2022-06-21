@@ -2,47 +2,47 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reading Notes on Tech Blog</title>
-    <link>https://www.calumjackson.co.uk/reading/</link>
+    <link>https://calumjackson.github.io/techblog/reading/</link>
     <description>Recent content in Reading Notes on Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 15 Sep 2019 21:32:53 +0100</lastBuildDate><atom:link href="https://www.calumjackson.co.uk/reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Sep 2019 21:32:53 +0100</lastBuildDate><atom:link href="https://calumjackson.github.io/techblog/reading/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Simon Wardley: Map Notes</title>
-      <link>https://www.calumjackson.co.uk/reading/wardley_maps/</link>
+      <link>https://calumjackson.github.io/techblog/reading/wardley_maps/</link>
       <pubDate>Sun, 15 Sep 2019 21:38:47 +0100</pubDate>
       
-      <guid>https://www.calumjackson.co.uk/reading/wardley_maps/</guid>
+      <guid>https://calumjackson.github.io/techblog/reading/wardley_maps/</guid>
       <description>This is an extension of the Wardley Maps talk I have mentioned in the QCon section, and largely comes from Simon&amp;rsquo;s extensive book in the creative commons as he called it.</description>
     </item>
     
     <item>
       <title>Make It Stick</title>
-      <link>https://www.calumjackson.co.uk/reading/make_it_stick/</link>
+      <link>https://calumjackson.github.io/techblog/reading/make_it_stick/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.calumjackson.co.uk/reading/make_it_stick/</guid>
+      <guid>https://calumjackson.github.io/techblog/reading/make_it_stick/</guid>
       <description>Authors Peter Brown, Mark McDaniel, Henry Roediger
 First Thoughts This could be the most important book I read this year, given the impact it could have upon my ability to learn and retrieve information.
-Key Learning Concepts  Retrieval practice is important to cementing knowledge in your mind and preventing forgetfulness of a subject. Interleaving learning increases retrieval practice implicitly, as you essentially have to do some form of retrieval to remember where you are in the context of reading / learning.</description>
+Key Learning Concepts Retrieval practice is important to cementing knowledge in your mind and preventing forgetfulness of a subject. Interleaving learning increases retrieval practice implicitly, as you essentially have to do some form of retrieval to remember where you are in the context of reading / learning.</description>
     </item>
     
     <item>
       <title>Boiling Frogs</title>
-      <link>https://www.calumjackson.co.uk/reading/boiling_frogs/</link>
+      <link>https://calumjackson.github.io/techblog/reading/boiling_frogs/</link>
       <pubDate>Sun, 15 Sep 2019 21:38:47 +0100</pubDate>
       
-      <guid>https://www.calumjackson.co.uk/reading/boiling_frogs/</guid>
+      <guid>https://calumjackson.github.io/techblog/reading/boiling_frogs/</guid>
       <description>This paper is on tackling the inertia &amp;amp; collaboration issues commonly found in government organisations. These are being seen as a blockers to building a transformative company that can react to change at the pace required.
 What is Value? A lot of &amp;ldquo;productivity&amp;rdquo; seems to be traditionally monitored by work output, which really masks the real focus of productivity which is the actual output to the customer, for example delivering a feature which allows a customer to do a task in half the time, rather than delivering five features of which no tangible customer value can be associated.</description>
     </item>
     
     <item>
       <title>Cockroach DB</title>
-      <link>https://www.calumjackson.co.uk/reading/cockroachdb/</link>
+      <link>https://calumjackson.github.io/techblog/reading/cockroachdb/</link>
       <pubDate>Sun, 15 Sep 2019 21:38:47 +0100</pubDate>
       
-      <guid>https://www.calumjackson.co.uk/reading/cockroachdb/</guid>
+      <guid>https://calumjackson.github.io/techblog/reading/cockroachdb/</guid>
       <description>This piece is based on the white paper for Cockroach DB.
 Fundamentals Cockroach DB is a scalable, cloud based DBMS targeted towards OLTP systems, particularly ones which are geo-distributed.
 Fault tolerance is provided by a min. three replica partitioning in each geo-zone. This is similar to how Cassandra (or StorageOS) works in that all data is replicated across the replicas, and the transaction is not considered committed until there is a quorum of agreement that three replicas have the data.</description>
@@ -50,10 +50,10 @@ Fault tolerance is provided by a min. three replica partitioning in each geo-zon
     
     <item>
       <title>Being A Tech Lead</title>
-      <link>https://www.calumjackson.co.uk/reading/being_a_tech_lead/</link>
+      <link>https://calumjackson.github.io/techblog/reading/being_a_tech_lead/</link>
       <pubDate>Sat, 25 Jul 2020 15:38:47 +0100</pubDate>
       
-      <guid>https://www.calumjackson.co.uk/reading/being_a_tech_lead/</guid>
+      <guid>https://calumjackson.github.io/techblog/reading/being_a_tech_lead/</guid>
       <description>Notes on reading Camille Fournier&amp;rsquo;s The Manager&amp;rsquo;s Path.
 Mentoring Chapter 2, covering mentoring, was a insightful piece into how and why we should place value into mentoring engineers in our working life, whether it is the intern, new hire, or just an engineer in our team trying to learn new skills.
 In the case of the intern, give them a structure involvement in a project which they will be able to contribute to, but give them more than enough time to do this (i.</description>
@@ -61,49 +61,49 @@ In the case of the intern, give them a structure involvement in a project which 
     
     <item>
       <title>Team Topologies</title>
-      <link>https://www.calumjackson.co.uk/reading/teamtopologies/</link>
+      <link>https://calumjackson.github.io/techblog/reading/teamtopologies/</link>
       <pubDate>Sun, 15 Sep 2019 21:38:47 +0100</pubDate>
       
-      <guid>https://www.calumjackson.co.uk/reading/teamtopologies/</guid>
+      <guid>https://calumjackson.github.io/techblog/reading/teamtopologies/</guid>
       <description>Matthew Skelton and Manuel Pais Introduction Pages Types of team The authors suggest there are 4 team types and 3 forms of interaction.
- Stream aligned - these are the core product streams which will work on a particular service or stream. Enabling - Teams which work on tools which are available for teams to use, such as devops pipelines or automation tooling. Complicated subsystem - teams which focus on software which is mainly proprietary and of significant complexity that it requires a team to work full time on it.</description>
+Stream aligned - these are the core product streams which will work on a particular service or stream. Enabling - Teams which work on tools which are available for teams to use, such as devops pipelines or automation tooling. Complicated subsystem - teams which focus on software which is mainly proprietary and of significant complexity that it requires a team to work full time on it.</description>
     </item>
     
     <item>
       <title>Staff Engineer</title>
-      <link>https://www.calumjackson.co.uk/reading/staff_engineer/</link>
+      <link>https://calumjackson.github.io/techblog/reading/staff_engineer/</link>
       <pubDate>Wed, 17 Feb 2021 08:38:47 +0100</pubDate>
       
-      <guid>https://www.calumjackson.co.uk/reading/staff_engineer/</guid>
+      <guid>https://calumjackson.github.io/techblog/reading/staff_engineer/</guid>
       <description>Author: Will Larson Context How to think about non-managerial roles in software, which generally are less talked about / recognised as people tend to push people who have good teamwork / collaboration / managerial skills are pushed towards a managerial career path, rather than to what this book refers to as a Staff Engineer, which is the iterations after Senior Engineer where the engineer would still do some coding in a capacity, but would be more orientated towards providing input on aspects like engineering strategy, visions, and helping be the glue which holds the teams together.</description>
     </item>
     
     <item>
       <title>Monolith To Microservices</title>
-      <link>https://www.calumjackson.co.uk/reading/monolithtomicroservices/</link>
+      <link>https://calumjackson.github.io/techblog/reading/monolithtomicroservices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.calumjackson.co.uk/reading/monolithtomicroservices/</guid>
+      <guid>https://calumjackson.github.io/techblog/reading/monolithtomicroservices/</guid>
       <description>Author: Sam Newman
 Context This book covers the steps and strategies needed to decompose a monolithic architecture into a microservices architecture, starting with why you should move to microservices (and if you should), before moving onto the design patterns needed to achieve this. The initial chapters are a good introduction to the subject matter, defining what anyone is likely to want to achieve by moving to microservies, and the other options available outside of microservices.</description>
     </item>
     
     <item>
       <title>Spark Learnings</title>
-      <link>https://www.calumjackson.co.uk/reading/whatamilearninginspark/</link>
+      <link>https://calumjackson.github.io/techblog/reading/whatamilearninginspark/</link>
       <pubDate>Sun, 15 Sep 2019 21:38:47 +0100</pubDate>
       
-      <guid>https://www.calumjackson.co.uk/reading/whatamilearninginspark/</guid>
+      <guid>https://calumjackson.github.io/techblog/reading/whatamilearninginspark/</guid>
       <description>This will all mostly be unreadable trash which I am typing just to try and recall some of the aspects that I have notice when reading through the Spark: The Definitive Guide
 Dataframes Dataframes aren&amp;rsquo;t a spark specific concept, but they are a common usage of data processing to split the data in to shards. These are the pieces in the processing puzzle which will be separated &amp;amp; distributed across parallel process to provide Spark with the partitioned data needed to be able to process in isolation &amp;amp; without duplication.</description>
     </item>
     
     <item>
       <title>On Building a Great Culture</title>
-      <link>https://www.calumjackson.co.uk/reading/buildingculture/</link>
+      <link>https://calumjackson.github.io/techblog/reading/buildingculture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.calumjackson.co.uk/reading/buildingculture/</guid>
+      <guid>https://calumjackson.github.io/techblog/reading/buildingculture/</guid>
       <description>Context On finding the HBR&amp;rsquo;s collection of articles of culture in a bookshop sale block, it was almost predetermined I would buy it given my interest spiking in culture&amp;rsquo;s impact post the takeover of Worldpay.
 I&amp;rsquo;ve left it quite late in the reading process to write about this so a lot of it may be mis-remembered!
 Tempered Radicals Starting with the final article, which fortunately won&amp;rsquo;t give away the end of the story, is to focus on how people can make significant impacts to culture through small and seemingly mundane changes, rather than explosive and significant changes.</description>

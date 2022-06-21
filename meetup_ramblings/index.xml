@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meetup Ramblings on Tech Blog</title>
-    <link>https://www.calumjackson.co.uk/meetup_ramblings/</link>
+    <link>https://calumjackson.github.io/techblog/meetup_ramblings/</link>
     <description>Recent content in Meetup Ramblings on Tech Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Sep 2019 17:38:47 +0100</lastBuildDate><atom:link href="https://www.calumjackson.co.uk/meetup_ramblings/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 13 Sep 2019 17:38:47 +0100</lastBuildDate><atom:link href="https://calumjackson.github.io/techblog/meetup_ramblings/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kubernetes: 05/09</title>
-      <link>https://www.calumjackson.co.uk/meetup_ramblings/storageos/</link>
+      <link>https://calumjackson.github.io/techblog/meetup_ramblings/storageos/</link>
       <pubDate>Fri, 13 Sep 2019 15:59:47 +0100</pubDate>
       
-      <guid>https://www.calumjackson.co.uk/meetup_ramblings/storageos/</guid>
+      <guid>https://calumjackson.github.io/techblog/meetup_ramblings/storageos/</guid>
       <description>My. First. Meetup.
 I turned up to this as a lone ranger, without knowing what to really expect other than the possibility of free beer and pizza! The CodeNode I was aware of from a previous Worldpay &amp;ldquo;mini tech conference&amp;rdquo; back in 2017, and has a cool setup. Note: maybe we should encourage someone to do another tech conference.
 This meetup had been organised by Infrastructure as Code, under the Skills matter umbrella.</description>
@@ -20,21 +20,21 @@ This meetup had been organised by Infrastructure as Code, under the Skills matte
     
     <item>
       <title>Data Analytics: 12/09</title>
-      <link>https://www.calumjackson.co.uk/meetup_ramblings/snowplowandmonzo/</link>
+      <link>https://calumjackson.github.io/techblog/meetup_ramblings/snowplowandmonzo/</link>
       <pubDate>Fri, 13 Sep 2019 15:59:47 +0100</pubDate>
       
-      <guid>https://www.calumjackson.co.uk/meetup_ramblings/snowplowandmonzo/</guid>
+      <guid>https://calumjackson.github.io/techblog/meetup_ramblings/snowplowandmonzo/</guid>
       <description>My. Second. Meetup.
 This meet-up was organised by the Data Council.ai team, and had a couple of switched on presenters:
- Snow Plow Monzo pgAudit  Snow Plow The first of many Stephen&amp;rsquo;s on stage this evening was from Snow Plow (the meetup sponsor), who are a data analytics platform (still not sure how well used that term is generally - is this something that is used to build other services on?</description>
+Snow Plow Monzo pgAudit Snow Plow The first of many Stephen&amp;rsquo;s on stage this evening was from Snow Plow (the meetup sponsor), who are a data analytics platform (still not sure how well used that term is generally - is this something that is used to build other services on?</description>
     </item>
     
     <item>
       <title>Terraform &amp; Devops: 24/09</title>
-      <link>https://www.calumjackson.co.uk/meetup_ramblings/bulb/</link>
+      <link>https://calumjackson.github.io/techblog/meetup_ramblings/bulb/</link>
       <pubDate>Tue, 24 Sep 2019 15:59:47 +0100</pubDate>
       
-      <guid>https://www.calumjackson.co.uk/meetup_ramblings/bulb/</guid>
+      <guid>https://calumjackson.github.io/techblog/meetup_ramblings/bulb/</guid>
       <description>Today was a wet day. The first real rain we&amp;rsquo;ve seen this side of summer and all of London fell to pieces. Liverpool St station was flooding, Tfl was breaking down, and the imposing entrance of the Broadgate Business Centre was miserably out of action as I arrived at this meetup. Luckily the talks were less miserable, iiiiffff slightly vague, deep, and near comical.
 Scott Logic on Devops Quite a good overview on how devops is not a tooling piece but a set of cultures which incoporate aspects such as good tooling, CI/CD, agile/lean, etc to create a steamlined deployment process with high levels of monitoring, automation, and focus on reducing pain of operations.</description>
     </item>
