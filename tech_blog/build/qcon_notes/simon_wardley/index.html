@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0" />
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="https://www.calumjackson.co.uk/images/favicon.png" type="image/png">
+
+    <title>Simon Wardley: Maps :: Tech Blog</title>
+
+    
+    <link href="https://www.calumjackson.co.uk/css/nucleus.css?1662964741" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/fontawesome-all.min.css?1662964741" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/hybrid.css?1662964741" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/featherlight.min.css?1662964741" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/perfect-scrollbar.min.css?1662964741" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/auto-complete.css?1662964741" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/atom-one-dark-reasonable.css?1662964741" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/theme.css?1662964741" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/tabs.css?1662964741" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/hugo-theme.css?1662964741" rel="stylesheet">
+    
+    <link href="https://www.calumjackson.co.uk/css/theme-cj.css?1662964741" rel="stylesheet">
+    
+    
+
+    <script src="https://www.calumjackson.co.uk/js/jquery-3.3.1.min.js?1662964741"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+
+  </head>
+  <body class="" data-url="https://www.calumjackson.co.uk/qcon_notes/simon_wardley/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://www.calumjackson.co.uk"><i class= "fas fa-laptop-code fa-5x"></i>
+
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="https://www.calumjackson.co.uk/js/lunr.min.js?1662964741"></script>
+<script type="text/javascript" src="https://www.calumjackson.co.uk/js/auto-complete.js?1662964741"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/www.calumjackson.co.uk";
+    
+</script>
+<script type="text/javascript" src="https://www.calumjackson.co.uk/js/search.js?1662964741"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='https://www.calumjackson.co.uk/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/what_do_i_think/" title="What Do I Think?" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://www.calumjackson.co.uk/what_do_i_think/">
+          What Do I Think?
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/what_do_i_think/whoisboredofwfh/" title="Is Anyone Bored of WFH?" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/what_do_i_think/whoisboredofwfh/">
+        Is Anyone Bored of WFH?
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/reading/" title="Reading Notes" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://www.calumjackson.co.uk/reading/">
+          Reading Notes
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/wardley_maps/" title="Simon Wardley: Map Notes" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/wardley_maps/">
+        Simon Wardley: Map Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/make_it_stick/" title="Make It Stick" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/make_it_stick/">
+        Make It Stick
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/boiling_frogs/" title="Boiling Frogs" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/boiling_frogs/">
+        Boiling Frogs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/cockroachdb/" title="Cockroach DB" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/cockroachdb/">
+        Cockroach DB
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/being_a_tech_lead/" title="Being A Tech Lead" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/being_a_tech_lead/">
+        Being A Tech Lead
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/teamtopologies/" title="Team Topologies" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/teamtopologies/">
+        Team Topologies
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/staff_engineer/" title="Staff Engineer" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/staff_engineer/">
+        Staff Engineer
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/monolithtomicroservices/" title="Monolith To Microservices" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/monolithtomicroservices/">
+        Monolith To Microservices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/whatamilearninginspark/" title="Spark Learnings" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/whatamilearninginspark/">
+        Spark Learnings
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/buildingculture/" title="On Building a Great Culture" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/buildingculture/">
+        On Building a Great Culture
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/qcon_notes/" title="Qcon Ramblings" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="https://www.calumjackson.co.uk/qcon_notes/">
+          Qcon Ramblings
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/qcon_notes/randy_shoup/" title="Randy Shoup: Performance Culture" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/qcon_notes/randy_shoup/">
+        Randy Shoup: Performance Culture
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/qcon_notes/andy_walker/" title="Andy Walker: Zombie Apocalypse" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/qcon_notes/andy_walker/">
+        Andy Walker: Zombie Apocalypse
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/qcon_notes/simon_wardley/" title="Simon Wardley: Maps" class="dd-item active">
+        <a href="https://www.calumjackson.co.uk/qcon_notes/simon_wardley/">
+        Simon Wardley: Maps
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/qcon_notes/trisha_gee/" title="Trisha Gee: Buzzzwords" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/qcon_notes/trisha_gee/">
+        Trisha Gee: Buzzzwords
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/qcon_notes/ben_sieglman/" title="Ben Sieglman: Microservice" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/qcon_notes/ben_sieglman/">
+        Ben Sieglman: Microservice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/meetup_ramblings/" title="Meetup Ramblings" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://www.calumjackson.co.uk/meetup_ramblings/">
+          Meetup Ramblings
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/meetup_ramblings/storageos/" title="Kubernetes: 05/09" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/meetup_ramblings/storageos/">
+        Kubernetes: 05/09
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/meetup_ramblings/snowplowandmonzo/" title="Data Analytics: 12/09" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/meetup_ramblings/snowplowandmonzo/">
+        Data Analytics: 12/09
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/meetup_ramblings/bulb/" title="Terraform &amp; Devops: 24/09" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/meetup_ramblings/bulb/">
+        Terraform &amp; Devops: 24/09
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='https://www.calumjackson.co.uk/'>index</a> > <a href='https://www.calumjackson.co.uk/qcon_notes/'>Qcon Ramblings</a> > Simon Wardley: Maps
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#key-points">Key Points</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Simon Wardley: Maps
+            </h1>
+          
+
+        
+
+
+<hr>
+<p>Hadn&rsquo;t seen this presentation, but had heard it was good from colleagues. Having watched a few times, he is a <em>very</em> confident talker who keeps you engaged at all times.</p>
+<p>The main thing I took away from the talk was how clear and concise his observations, comments, and articulations were. It was a well put together piece, which has probably been practiced across the land!</p>
+<p>Whether this was due to the <strong>Wardley Maps</strong> or his own charisma, I can&rsquo;t comment, but imagine it would be both. Leading from the talk Randy Should led, where he mentioned the old Kettering proverb that problem well defined is a problem half solved, this applies directly to the Wardley Maps in that it distinctly allows you to plot the problem and understand it&rsquo;s surroundings.</p>
+<h3 id="key-points">Key Points</h3>
+<h4 id="ceo-talks-about-war">CEO Talks about war</h4>
+<h4 id="sun-tzus-five-factors">Sun Tzu&rsquo;s Five Factors</h4>
+<p>Purpose - what are you trying to achieve
+Landscape - what is in the environment you are trying to acheive
+Climate - what are the changing factors in the landscape
+Doctrine - decide the patterns &amp; actions to take
+Leadership - lead through the actions.</p>
+<p>Treat this as a cycle - where landscape can affect everything.</p>
+<p>OODA Loops overlay this:
+Observe -&gt; Landscape and Climate
+Orient -&gt; Doctrine
+Decisions -&gt; Leadership
+ACT! &amp; Loop around the cycle.</p>
+<h4 id="maps">Maps</h4>
+<p>Maps are different from Graphs, because they have space as a context - which give meaning to the space.</p>
+<p>Mind / System / etc Maps all aren&rsquo;t really maps, as they don&rsquo;t have meaning to the space.</p>
+<h4 id="doctrine">Doctrine</h4>
+<p>Universally applicable principles regardless of context</p>
+<p>Maps are a good means of learning. Provides context to be able to define domains.</p>
+<p>This leads to the ability to group teams into domain teams, rather than by aptitue (i.e. by sales rather than business / developmemt /test).</p>
+<h4 id="boiling-the-frogs">Boiling the Frogs</h4>
+<p>Goes on to show that a good way to group people is by Aptitude and Attitude, so have the people who like building new things building the new software, people who like working with existing models building the services of off the shelf products, etc.</p>
+<p>The case was then that the teams were working in more siloed teams around core and new functionality, the dev teams would create new functions &amp; try to hand over to core platform - this caused friction, with Core refusing to take all of the work with no documentation etc.</p>
+<p>This led to the dev teams building new on top of new.</p>
+<p>This was an implementation of a system called Pioneers, Settlers &amp; Town Planners</p>
+<ul>
+<li>Pioneers
+<ul>
+<li>People who like to build, operate, &amp; maintain in constantly changing spaces.</li>
+</ul>
+</li>
+<li>Settlers
+<ul>
+<li>Steal from Pioners and convert into useful products.</li>
+</ul>
+</li>
+<li>Town Planners
+<ul>
+<li>Steal from the settelers &amp; industrialise the components.</li>
+</ul>
+</li>
+</ul>
+<p>Fortunately, this could be splitting the teams into &ldquo;Tribes&rdquo; along the three groups above.</p>
+<p>This was defined by attitudes on the verticals (Pioneers are people who like changing things).</p>
+<p>You would then split on the horizontals into &ldquo;Guilds&rdquo; by Aptitudes (Engineering / Finance).</p>
+<p>Small teams were within this, like squads. A system of theft allowed team members from one area to push others out, allowing a cycle.</p>
+<p>Boiling Frogs document was linked at <a href="https://github.com/gchq/BoilingFrogs/blob/master/GCHQ_Boiling_Frogs.pdf">https://github.com/gchq/BoilingFrogs/blob/master/GCHQ_Boiling_Frogs.pdf</a></p>
+<p>He also has a book on the maps he used in his presentation, which were very useful at</p>
+<ul>
+<li>depicting the Landscape</li>
+<li>giving context to the discussion in terms of providing space as context</li>
+<li>Allowing to see the solution by having the whole picture, and seeing how doctrines are applied.</li>
+</ul>
+<p>The details behind his mapping system are here : <a href="https://medium.com/wardleymaps">https://medium.com/wardleymaps</a> - this is in article format so would be good to read via pocket or similar.</p>
+<p>Leading Edge Forum also run a course to learn at <a href="https://learn.leadingedgeforum.com/courses/wardley-mapping/">https://learn.leadingedgeforum.com/courses/wardley-mapping/</a> - though if you want to save $75 you can just read the medium piece for many, many hours 😆! Simon was very engaging so hopefully his writing will be</p>
+<p><a href="https://www.infoq.com/presentations/stuational-awareness/?itm_source=infoq&amp;itm_medium=QCon_EarlyAccessVideos&amp;itm_campaign=QConLondon2019">Video Link</a></p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="https://www.calumjackson.co.uk/qcon_notes/andy_walker/" title="Andy Walker: Zombie Apocalypse"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="https://www.calumjackson.co.uk/qcon_notes/trisha_gee/" title="Trisha Gee: Buzzzwords" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://www.calumjackson.co.uk/js/clipboard.min.js?1662964741"></script>
+    <script src="https://www.calumjackson.co.uk/js/perfect-scrollbar.min.js?1662964741"></script>
+    <script src="https://www.calumjackson.co.uk/js/perfect-scrollbar.jquery.min.js?1662964741"></script>
+    <script src="https://www.calumjackson.co.uk/js/jquery.sticky.js?1662964741"></script>
+    <script src="https://www.calumjackson.co.uk/js/featherlight.min.js?1662964741"></script>
+    <script src="https://www.calumjackson.co.uk/js/highlight.pack.js?1662964741"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://www.calumjackson.co.uk/js/modernizr.custom-3.6.0.js?1662964741"></script>
+    <script src="https://www.calumjackson.co.uk/js/learn.js?1662964741"></script>
+    <script src="https://www.calumjackson.co.uk/js/hugo-learn.js?1662964741"></script>
+    
+        
+            <script src="https://www.calumjackson.co.uk/mermaid/mermaid.js?1662964741"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+

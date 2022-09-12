@@ -1,0 +1,1224 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0" />
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="https://www.calumjackson.co.uk/images/favicon.png" type="image/png">
+
+    <title>Kubernetes: 05/09 :: Tech Blog</title>
+
+    
+    <link href="https://www.calumjackson.co.uk/css/nucleus.css?1662964741" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/fontawesome-all.min.css?1662964741" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/hybrid.css?1662964741" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/featherlight.min.css?1662964741" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/perfect-scrollbar.min.css?1662964741" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/auto-complete.css?1662964741" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/atom-one-dark-reasonable.css?1662964741" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/theme.css?1662964741" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/tabs.css?1662964741" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/hugo-theme.css?1662964741" rel="stylesheet">
+    
+    <link href="https://www.calumjackson.co.uk/css/theme-cj.css?1662964741" rel="stylesheet">
+    
+    
+
+    <script src="https://www.calumjackson.co.uk/js/jquery-3.3.1.min.js?1662964741"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+
+  </head>
+  <body class="" data-url="https://www.calumjackson.co.uk/meetup_ramblings/storageos/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://www.calumjackson.co.uk"><i class= "fas fa-laptop-code fa-5x"></i>
+
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="https://www.calumjackson.co.uk/js/lunr.min.js?1662964741"></script>
+<script type="text/javascript" src="https://www.calumjackson.co.uk/js/auto-complete.js?1662964741"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/www.calumjackson.co.uk";
+    
+</script>
+<script type="text/javascript" src="https://www.calumjackson.co.uk/js/search.js?1662964741"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='https://www.calumjackson.co.uk/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/what_do_i_think/" title="What Do I Think?" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://www.calumjackson.co.uk/what_do_i_think/">
+          What Do I Think?
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/what_do_i_think/whoisboredofwfh/" title="Is Anyone Bored of WFH?" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/what_do_i_think/whoisboredofwfh/">
+        Is Anyone Bored of WFH?
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/reading/" title="Reading Notes" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://www.calumjackson.co.uk/reading/">
+          Reading Notes
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/wardley_maps/" title="Simon Wardley: Map Notes" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/wardley_maps/">
+        Simon Wardley: Map Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/make_it_stick/" title="Make It Stick" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/make_it_stick/">
+        Make It Stick
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/boiling_frogs/" title="Boiling Frogs" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/boiling_frogs/">
+        Boiling Frogs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/cockroachdb/" title="Cockroach DB" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/cockroachdb/">
+        Cockroach DB
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/being_a_tech_lead/" title="Being A Tech Lead" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/being_a_tech_lead/">
+        Being A Tech Lead
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/teamtopologies/" title="Team Topologies" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/teamtopologies/">
+        Team Topologies
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/staff_engineer/" title="Staff Engineer" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/staff_engineer/">
+        Staff Engineer
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/monolithtomicroservices/" title="Monolith To Microservices" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/monolithtomicroservices/">
+        Monolith To Microservices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/whatamilearninginspark/" title="Spark Learnings" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/whatamilearninginspark/">
+        Spark Learnings
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/buildingculture/" title="On Building a Great Culture" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/buildingculture/">
+        On Building a Great Culture
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/qcon_notes/" title="Qcon Ramblings" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://www.calumjackson.co.uk/qcon_notes/">
+          Qcon Ramblings
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/qcon_notes/randy_shoup/" title="Randy Shoup: Performance Culture" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/qcon_notes/randy_shoup/">
+        Randy Shoup: Performance Culture
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/qcon_notes/andy_walker/" title="Andy Walker: Zombie Apocalypse" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/qcon_notes/andy_walker/">
+        Andy Walker: Zombie Apocalypse
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/qcon_notes/simon_wardley/" title="Simon Wardley: Maps" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/qcon_notes/simon_wardley/">
+        Simon Wardley: Maps
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/qcon_notes/trisha_gee/" title="Trisha Gee: Buzzzwords" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/qcon_notes/trisha_gee/">
+        Trisha Gee: Buzzzwords
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/qcon_notes/ben_sieglman/" title="Ben Sieglman: Microservice" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/qcon_notes/ben_sieglman/">
+        Ben Sieglman: Microservice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/meetup_ramblings/" title="Meetup Ramblings" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="https://www.calumjackson.co.uk/meetup_ramblings/">
+          Meetup Ramblings
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/meetup_ramblings/storageos/" title="Kubernetes: 05/09" class="dd-item active">
+        <a href="https://www.calumjackson.co.uk/meetup_ramblings/storageos/">
+        Kubernetes: 05/09
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/meetup_ramblings/snowplowandmonzo/" title="Data Analytics: 12/09" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/meetup_ramblings/snowplowandmonzo/">
+        Data Analytics: 12/09
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/meetup_ramblings/bulb/" title="Terraform &amp; Devops: 24/09" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/meetup_ramblings/bulb/">
+        Terraform &amp; Devops: 24/09
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='https://www.calumjackson.co.uk/'>index</a> > <a href='https://www.calumjackson.co.uk/meetup_ramblings/'>Meetup Ramblings</a> > Kubernetes: 05/09
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li></li>
+        <li><a href="#storageoshttpsskillsmattercomskillscasts14359-running-stateful-applications-in-kubernetes"><a href="https://skillsmatter.com/skillscasts/14359-running-stateful-applications-in-kubernetes">StorageOS</a></a></li>
+        <li><a href="#running-a-basic-kubernetes-app">Running a basic Kubernetes app</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Kubernetes: 05/09
+            </h1>
+          
+
+        
+
+
+<hr>
+<p><strong>My. First. Meetup.</strong></p>
+<p>I turned up to this as a lone ranger, without knowing what to really expect other than the possibility of free beer and pizza! The CodeNode I was aware of from a previous Worldpay &ldquo;mini tech conference&rdquo; back in 2017, and has a cool setup. Note: maybe we should encourage someone to do another tech conference.</p>
+<p>This meetup had been organised by <a href="https://skillsmatter.com/groups/10787-london-infrastructure-as-code">Infrastructure as Code</a>, under the <a href="https://skillsmatter.com/">Skills matter</a> umbrella. It was quite light on talkers, however the StorageOs team spent a reasonable amount of time talking and demonstrating so it wasn&rsquo;t too short.</p>
+<h4 id="kubernetes-in-a-nutshell">Kubernetes in a nutshell</h4>
+<p>Dennis initially gave a brief overview of Kubernetes, explaining the K8 pods as a group of containers within a Node/VM. Which was a very brief overview.</p>
+<p>And then the walkthrough, where he setup a static website on a K8 cluster. You may as well just <a href="https://skillsmatter.com/skillscasts/14358-london-infrastructure-as-code-september#video">watch the video</a> if you&rsquo;re interested.</p>
+<p>He had a docker pod setup with a small sized image, built the image / app into a docker pod, pushed his image to his docker hub, started MiniKube &amp; KubeCTL,</p>
+<p>What I&rsquo;ve learnt whilst following this:</p>
+<ul>
+<li>
+<p>Setting up Docker was simple enough 😄</p>
+</li>
+<li>
+<p>Spent a reasonable amount of time trying to host my HTML file onto the docker image. Basically I&rsquo;d misunderstood the way of standing up the Docker build, and showed my time away from coding. The COPY command is pretty obvious, but I&rsquo;d forgotten that the &lsquo;.&rsquo; stood for something, namely <em>everything in the folder you are running from</em> 😭</p>
+</li>
+</ul>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>FROM nginx:alpine
+</span></span><span style="display:flex;"><span>COPY . /usr/share/nginx/html
+</span></span><span style="display:flex;"><span>EXPOSE <span style="color:#ae81ff">80</span></span></span></code></pre></div>
+<ul>
+<li>Once I understood that you copied the directory into the image rather (writing this out makes me feel super stupid, as this surely is one of the main concepts of containers 🙈), I was on my way.</li>
+</ul>
+<p>I&rsquo;ll dive into the Kubernetes setup later on in this page, lest you fall asleep before the other points of interest. 😴</p>
+<h3 id="storageoshttpsskillsmattercomskillscasts14359-running-stateful-applications-in-kubernetes"><a href="https://skillsmatter.com/skillscasts/14359-running-stateful-applications-in-kubernetes">StorageOS</a></h3>
+<p>The technical talk around this was interesting and quite thorough, particularly as it was showing the service in action whilst explaining the concepts. I&rsquo;ve pretty shamelessly <a href="https://docs.storageos.com/docs/">stolen some of their diagrams</a> below to help me remember what they talked about 😆</p>
+<h4 id="data-transfer-and-high-availability">Data Transfer and High Availability</h4>
+<p>The platform was using replicated volumes across multiple nodes to provide data protections and high availability. Interestingly, the platform uses <em>synchronous</em> replication across leader based replication for consistency. This means there is a round trip involved and that writes are dependent on a quorum being complete, and likely needs an aggressive failure identification model to determine if a node is non-accessible.</p>
+<p><img src="https://www.calumjackson.co.uk/images/meetup_pics/storageos/high-availability.png?classes=float-left,shadow" alt="high-avail"></p>
+<p>This basically works in sending data to the primary data store first, and then replicating across the replica nodes. Replicas are aggressively replaced, and these are synced <em>asynchronously</em> and work with eventual consistency until they are in sync. (This means that the new replica will not require acknowledgements until it is in sync).</p>
+<p><img src="https://www.calumjackson.co.uk/images/meetup_pics/storageos/storageos-cluster.png" alt="architecture"></p>
+<p>This separates the storage from the application (this is same as cassandra?), which means if the application fails the storage isn&rsquo;t lost (because the database is contained within the container, and K8s can take up to 5 minutes to be deemed as lost.)</p>
+<p>Another key feature is that the storage is failed over between availability zones if one goes down.</p>
+<hr>
+<h3 id="running-a-basic-kubernetes-app">Running a basic Kubernetes app</h3>
+<p>Steps to run a docker image in Kubernetes (I&rsquo;ve excluded <a href="https://kubernetes.io/docs/tasks/tools/install-minikube/">instaling minikube, kubectl, and vmware</a> as this was relatively straightforward)</p>
+<p>Builds the image into a docker pod</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sudo docker build -t practice-app .</span></span></code></pre></div>
+<p>Run the docker pod against a particular port, and started minikube</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sudo docker run -d -p 80:80
+</span></span><span style="display:flex;"><span>$ minikube start</span></span></code></pre></div>
+<p>Logged into the dockerhub instance</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ sudo docker login --username<span style="color:#f92672">=</span>yourUserName
+</span></span><span style="display:flex;"><span>$ sudo docker tag 209cd5379600 yourUserName/practice-app:101
+</span></span><span style="display:flex;"><span>$ sudo docker push yourUserName/practice-app:101</span></span></code></pre></div>
+<p>Within kubernetes, run the container application against a particular port. Can check the yaml file to see the current configuration.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ kubectl run practice-app --image<span style="color:#f92672">=</span>yourUserName/practice-app:101 --port<span style="color:#f92672">=</span><span style="color:#ae81ff">80</span>
+</span></span><span style="display:flex;"><span>$ kubectl get deployment --export -o yaml</span></span></code></pre></div>
+<p>Expose the deployment against the internal NodePort. &lsquo;Get service&rsquo; will return the details of the deployment.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ kubectl expose deployment practice-app --type<span style="color:#f92672">=</span>NodePort
+</span></span><span style="display:flex;"><span>$ kubectl get service</span></span></code></pre></div>
+<p>Get the url of where the service is running - removing the &ndash;url hint will trigger the web browser to open at that page.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ minikube service practice-app --url
+</span></span><span style="display:flex;"><span>$ minikube service practice-app</span></span></code></pre></div>
+<p>Finally, to scale out to X amounts of replicas. The -o wide commands below allow all details about the services to be seen.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ kubectl scale deployment practice-app --replicas<span style="color:#f92672">=</span><span style="color:#ae81ff">4</span>
+</span></span><span style="display:flex;"><span>$ kubectl get po -o wide</span></span></code></pre></div>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="https://www.calumjackson.co.uk/meetup_ramblings/" title="Meetup Ramblings"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="https://www.calumjackson.co.uk/meetup_ramblings/snowplowandmonzo/" title="Data Analytics: 12/09" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://www.calumjackson.co.uk/js/clipboard.min.js?1662964741"></script>
+    <script src="https://www.calumjackson.co.uk/js/perfect-scrollbar.min.js?1662964741"></script>
+    <script src="https://www.calumjackson.co.uk/js/perfect-scrollbar.jquery.min.js?1662964741"></script>
+    <script src="https://www.calumjackson.co.uk/js/jquery.sticky.js?1662964741"></script>
+    <script src="https://www.calumjackson.co.uk/js/featherlight.min.js?1662964741"></script>
+    <script src="https://www.calumjackson.co.uk/js/highlight.pack.js?1662964741"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://www.calumjackson.co.uk/js/modernizr.custom-3.6.0.js?1662964741"></script>
+    <script src="https://www.calumjackson.co.uk/js/learn.js?1662964741"></script>
+    <script src="https://www.calumjackson.co.uk/js/hugo-learn.js?1662964741"></script>
+    
+        
+            <script src="https://www.calumjackson.co.uk/mermaid/mermaid.js?1662964741"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+

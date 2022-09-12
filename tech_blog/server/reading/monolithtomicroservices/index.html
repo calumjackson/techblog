@@ -1,0 +1,1220 @@
+<!DOCTYPE html>
+<html lang="en" class="js csstransforms3d">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="Hugo 0.101.0" />
+    <meta name="description" content="">
+
+
+    <link rel="icon" href="https://www.calumjackson.co.uk/images/favicon.png" type="image/png">
+
+    <title>Monolith To Microservices :: Tech Blog</title>
+
+    
+    <link href="https://www.calumjackson.co.uk/css/nucleus.css?1662964777" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/fontawesome-all.min.css?1662964777" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/hybrid.css?1662964777" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/featherlight.min.css?1662964777" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/perfect-scrollbar.min.css?1662964777" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/auto-complete.css?1662964777" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/atom-one-dark-reasonable.css?1662964777" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/theme.css?1662964777" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/tabs.css?1662964777" rel="stylesheet">
+    <link href="https://www.calumjackson.co.uk/css/hugo-theme.css?1662964777" rel="stylesheet">
+    
+    <link href="https://www.calumjackson.co.uk/css/theme-cj.css?1662964777" rel="stylesheet">
+    
+    
+
+    <script src="https://www.calumjackson.co.uk/js/jquery-3.3.1.min.js?1662964777"></script>
+
+    <style>
+      :root #header + #content > #left > #rlblock_left{
+          display:none !important;
+      }
+      
+    </style>
+    
+
+  </head>
+  <body class="" data-url="https://www.calumjackson.co.uk/reading/monolithtomicroservices/">
+    <nav id="sidebar" class="">
+
+
+
+  <div id="header-wrapper">
+    <div id="header">
+      <a id="logo" href="https://www.calumjackson.co.uk"><i class= "fas fa-laptop-code fa-5x"></i>
+
+</a>
+
+    </div>
+    
+        <div class="searchbox">
+    <label for="search-by"><i class="fas fa-search"></i></label>
+    <input data-search-input id="search-by" type="search" placeholder="Search...">
+    <span data-search-clear=""><i class="fas fa-times"></i></span>
+</div>
+
+<script type="text/javascript" src="https://www.calumjackson.co.uk/js/lunr.min.js?1662964777"></script>
+<script type="text/javascript" src="https://www.calumjackson.co.uk/js/auto-complete.js?1662964777"></script>
+<script type="text/javascript">
+    
+        var baseurl = "https:\/\/www.calumjackson.co.uk";
+    
+</script>
+<script type="text/javascript" src="https://www.calumjackson.co.uk/js/search.js?1662964777"></script>
+
+    
+  </div>
+  
+    <section id="homelinks">
+      <ul>
+        <li>
+            <a class="padding" href='https://www.calumjackson.co.uk/'><i class='fas fa-home'></i> Home</a>
+        </li>
+      </ul>
+    </section>
+  
+
+    <div class="highlightable">
+    <ul class="topics">
+
+        
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/what_do_i_think/" title="What Do I Think?" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://www.calumjackson.co.uk/what_do_i_think/">
+          What Do I Think?
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/what_do_i_think/whoisboredofwfh/" title="Is Anyone Bored of WFH?" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/what_do_i_think/whoisboredofwfh/">
+        Is Anyone Bored of WFH?
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/reading/" title="Reading Notes" class="dd-item
+        parent
+        
+        
+        ">
+      <a href="https://www.calumjackson.co.uk/reading/">
+          Reading Notes
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/wardley_maps/" title="Simon Wardley: Map Notes" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/wardley_maps/">
+        Simon Wardley: Map Notes
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/make_it_stick/" title="Make It Stick" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/make_it_stick/">
+        Make It Stick
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/boiling_frogs/" title="Boiling Frogs" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/boiling_frogs/">
+        Boiling Frogs
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/cockroachdb/" title="Cockroach DB" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/cockroachdb/">
+        Cockroach DB
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/being_a_tech_lead/" title="Being A Tech Lead" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/being_a_tech_lead/">
+        Being A Tech Lead
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/teamtopologies/" title="Team Topologies" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/teamtopologies/">
+        Team Topologies
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/staff_engineer/" title="Staff Engineer" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/staff_engineer/">
+        Staff Engineer
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/monolithtomicroservices/" title="Monolith To Microservices" class="dd-item active">
+        <a href="https://www.calumjackson.co.uk/reading/monolithtomicroservices/">
+        Monolith To Microservices
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/whatamilearninginspark/" title="Spark Learnings" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/whatamilearninginspark/">
+        Spark Learnings
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/reading/buildingculture/" title="On Building a Great Culture" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/reading/buildingculture/">
+        On Building a Great Culture
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/qcon_notes/" title="Qcon Ramblings" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://www.calumjackson.co.uk/qcon_notes/">
+          Qcon Ramblings
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/qcon_notes/randy_shoup/" title="Randy Shoup: Performance Culture" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/qcon_notes/randy_shoup/">
+        Randy Shoup: Performance Culture
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/qcon_notes/andy_walker/" title="Andy Walker: Zombie Apocalypse" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/qcon_notes/andy_walker/">
+        Andy Walker: Zombie Apocalypse
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/qcon_notes/simon_wardley/" title="Simon Wardley: Maps" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/qcon_notes/simon_wardley/">
+        Simon Wardley: Maps
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/qcon_notes/trisha_gee/" title="Trisha Gee: Buzzzwords" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/qcon_notes/trisha_gee/">
+        Trisha Gee: Buzzzwords
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/qcon_notes/ben_sieglman/" title="Ben Sieglman: Microservice" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/qcon_notes/ben_sieglman/">
+        Ben Sieglman: Microservice
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/meetup_ramblings/" title="Meetup Ramblings" class="dd-item
+        
+        
+        
+        ">
+      <a href="https://www.calumjackson.co.uk/meetup_ramblings/">
+          Meetup Ramblings
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/meetup_ramblings/storageos/" title="Kubernetes: 05/09" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/meetup_ramblings/storageos/">
+        Kubernetes: 05/09
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/meetup_ramblings/snowplowandmonzo/" title="Data Analytics: 12/09" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/meetup_ramblings/snowplowandmonzo/">
+        Data Analytics: 12/09
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/meetup_ramblings/bulb/" title="Terraform &amp; Devops: 24/09" class="dd-item ">
+        <a href="https://www.calumjackson.co.uk/meetup_ramblings/bulb/">
+        Terraform &amp; Devops: 24/09
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+      
+    </li>
+  
+ 
+
+          
+        
+    </ul>
+
+    
+    
+
+    
+    <section id="footer">
+      <p></p>
+
+    </section>
+  </div>
+</nav>
+
+
+
+
+        <section id="body">
+        <div id="overlay"></div>
+        <div class="padding highlightable">
+              
+              <div>
+                <div id="top-bar">
+                
+                
+                <div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                    <span id="sidebar-toggle-span">
+                        <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+                          <i class="fas fa-bars"></i>
+                        </a>
+                    </span>
+                  
+                  <span id="toc-menu"><i class="fas fa-list-alt"></i></span>
+                  
+                  <span class="links">
+                 
+                 
+                    
+          
+          
+            
+            
+          
+          
+            
+            
+          
+          
+            <a href='https://www.calumjackson.co.uk/'>index</a> > <a href='https://www.calumjackson.co.uk/reading/'>Reading Notes</a> > Monolith To Microservices
+          
+        
+          
+        
+          
+        
+                 
+                  </span>
+                </div>
+                
+                    <div class="progress">
+    <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#how-to-know-change-is-working">How to know change is working</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#strangler-fig-pattern">Strangler Fig Pattern</a></li>
+    <li><a href="#branch-by-abstraction">Branch By Abstraction</a></li>
+    <li><a href="#parallel-run">Parallel Run</a></li>
+    <li><a href="#change-data-capture">Change Data Capture</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#database-as-a-service">Database As A Service</a></li>
+  </ul>
+</nav>
+    </div>
+</div>
+
+                
+              </div>
+            </div>
+            
+        <div id="head-tags">
+        
+        </div>
+        
+        <div id="body-inner">
+          
+            <h1>
+              
+              Monolith To Microservices
+            </h1>
+          
+
+        
+
+
+<hr>
+<p>Author: Sam Newman</p>
+<h1 id="context">Context</h1>
+<p>This book covers the steps and strategies needed to decompose a monolithic architecture into a microservices architecture, starting with why you should move to microservices (and if you should), before moving onto the design patterns needed to achieve this. The initial chapters are a good introduction to the subject matter, defining what anyone is likely to want to achieve by moving to microservies, and the other options available outside of microservices. One re-iterated point is that Microservices <em>are not a silver bullet</em> - there are many other architecture options which can give you similar capabilities without the complexity of microservices, which are difficult to comprehend in the design phase of microservices given their distributed nature.</p>
+<h1 id="chapter-2-notes">Chapter 2 Notes</h1>
+<p>This chapter discusses the steps to consider when planning a move to microservices. Notably time is spent on the decision to move to microservices being based on achieving some end goal, not because it was a buzz word.</p>
+<p>This is mainly driven by the point that moving to micro-services is not simple, and creates a complex architecture to maintain, which may not be necessary in the problem space. A lot of time and energy can be put into microservices which could be wasted if it is not done for the right reasons and suitable alternatives have not been considered, for example flexible scalability is a possible bonus of microservice architectures, but this could be achieved with much cheaper costs by plain old vertical or horizontal scaling in certain contexts.</p>
+<p>The second part was defining the business and human nature to driving change in the organisation, as the basis for getting the momentum to actually implement this change against competing priorities in the business. This delves into the &ldquo;8 steps for operational change&rdquo;, which builds a model based on the following steps</p>
+<ol>
+<li>Create a sense of urgency</li>
+<li>Build a guiding coalition - set of diffuse people who will be able to help drive the project forward.</li>
+<li>Build a vision and strategy</li>
+<li>Communicate the vision to the teams</li>
+<li>Enable teams to work / build accountability / autonomy to work on the features. Empower employees with broad based action.</li>
+<li>Create short term wins (gains)</li>
+<li>Consolidate small wins (gains) into big gains and push momentum</li>
+<li>Anchor the mindset / work / approaches into the fundamental culture of the company.</li>
+</ol>
+<p>Once these decisions have been made, the choice of what to migrate is made easier by drawing up a model of the architecture using events storming and domain driven design. These techniques allow you to define the domain boundaries and also determine the difficulty to isolate a particular microservice from the monolith (i.e. on piece of functionality may be used by multiple other services, making it more difficult to extract).</p>
+<h3 id="how-to-know-change-is-working">How to know change is working</h3>
+<p>The author mentions that knowing where you are now is as important as knowing where you want to go - otherwise you will be unaware of where you are on your transition, and on top of this understanding how monitoring provides the framework for tracking that. Regular checkpoints of both quantitative and qualitative measures are critical in measuring the success of change - qualitative is possibly eye raising here however the authors point is that you need to bring the engineers along on this journey with you, so to move in a direction where they are not seeing advantages is a move to failure. I imagine this doesn&rsquo;t mean you would need to drop everything and go back to a distributed monolith, but it may mean making changes at a more sustainable rate so that employees can understand each level of change more before having the next level thrown upon them.</p>
+<p>I am thinking of this in the same way as the UK government is looking to end the lockdown in early 2021 (time to date this blog <em>smile</em>) - each removal of restrictions is stepped with 4-5 weeks wait inbetween. This has two uses I can see; the government can monitor the effectiveness of each set of changes without having the data comprimised by having too many changes to cover (which do you revert if infections rise significantly), and steps the re-introduction of normal services back to the NHS, who are still swamped with COVID in the critical care units which effectively become a bottleneck to all other specialities as all major surgeries end up in an ICU.</p>
+<h1 id="migration-patterns">Migration Patterns</h1>
+<h2 id="strangler-fig-pattern">Strangler Fig Pattern</h2>
+<p>This is the method of separating out slices of functionality (ideally by domain), and developing a micro service to deliver that functionality but to switch the operation of that service over slowly from the monolith. This replicates the strangler fig in that it grows on an existing tree and becomes part of the trees structure until eventually the old tree dies within.</p>
+<p>In this case you could extract the functionality of say a payroll service (copying code verbatim is a good option here if possible, as it will keep functionlity the same) and exposing that service slowly as it is delivered. HTTP proxy is marked out as a good splitting method as the traffic can be more easily re-routed, and is quick to change back to using the initial functionality in the monolith if things aren&rsquo;t working out.</p>
+<p>One aspect that needs thought is the interaction with other services within the monolith - it might be needed to expose downstream services via an API to be able to recreate that link which would be easily available within the monolith.</p>
+<p>A lot of the complexity of implementing the strangler fig is in deciding what method re-routing messages to the services takes. There are options around using a service mesh (Istio), updating the API and mapping all messages into the new API, and Content Based Routing. Content Based Routing is a option which could fall either way where ideally we would &ldquo;keep the pipes dumb&rdquo; and not create a level of complexity upstream, however other options such as getting the monolith to ignore certain messages and the complexity of timing the switchover could lead to taking the content based routing approach as it abstracts that matter - likely this better for more complex message re-routing where it is not planned to be in place for long amounts of time.</p>
+<p>A <em>service mesh</em> is something I haven&rsquo;t really understood before but this book seems to give a good (if brief) overview of the concept, that the service mesh provides the ability to deploy services with a local proxy to each service alongside, and a control plane which allows central management of those proxies. Within the boundary of the service mesh all communications to services are via proxies which can route traffic appropriately and configuration of those can be managed from a central location. <a href="https://www.redhat.com/en/topics/microservices/what-is-a-service-mesh">Redhat provide a good view of the service mesh</a>, indicating how the abstraction of the communication layer allows the removal of specific coding to deal with communication in each service. This sounds like &ldquo;smart pipes&rdquo; which the author is advising to avoid, but I think the idea is to treat the communication layer as a first class service &amp; the pipes within that are still &ldquo;dumb&rdquo;.</p>
+<h2 id="branch-by-abstraction">Branch By Abstraction</h2>
+<p>Similar to the Strangler Fig option in places where functionality is embedded in the services &amp; cannot be re-directed via re-routing messages. This creates a more invasive method of abstraction and involves adapting the code of the original monolith, but this is a less complex option than the parallel run.</p>
+<p>This method is implemented via abstracting an interface to the functionality within the monolith, such that initially this is just a pass through to the existing functionality. The difficulty in this pattern is that understanding all the services which use the functionality can often be unknown, which means you are in the position of having to work that out before starting to re-route them to the abstraction.</p>
+<p>Once the new implementation is ready the abstraction can start to switch functionality referencing within the abstraction so that it starts to use the new method, and then start to clean up the old service by removing it</p>
+<h2 id="parallel-run">Parallel Run</h2>
+<p>The name gives this away, build the new implementation alongside the existing monolith and run the transactions through both systems, comparing the outputs in both until the new implementation can be validated to the point of this being the new source of truth.</p>
+<h2 id="change-data-capture">Change Data Capture</h2>
+<p>Pattern for tracking actions being taken through database calls (triggers or logs), and passing those messages in as the API calls to the new service. This is quite an event driven approach but can add a lot of complexity, such that building and maintaining this can add as much work as other implementations.</p>
+<h1 id="decomposing-the-database">Decomposing the Database</h1>
+<h2 id="database-as-a-service">Database As A Service</h2>
+<p>This concept seems to be a invocation of the CQRS pattern, where reads and writes would be written to one database, ideally via the owning service, which then has a separate external database which keeps an eventually consistent view of the internal database to expose to outside services in a read only manner.</p>
+<p>This level of encapsulation of the internal database prevents coupling to the internal database and reduces read/write contention between them (however this may not reduce compute contention if the &ldquo;external database&rdquo; is built as a separate schema on the same database).</p>
+
+
+<footer class="footline">
+	
+</footer>
+
+        
+        </div>
+        
+
+      </div>
+
+    <div id="navigation">
+        
+        
+
+        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                        
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                        
+                        
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+            
+        
+                    
+            
+        
+
+        
+
+
+	 
+	 
+		
+			<a class="nav nav-prev" href="https://www.calumjackson.co.uk/reading/staff_engineer/" title="Staff Engineer"> <i class="fa fa-chevron-left"></i></a>
+		
+		
+			<a class="nav nav-next" href="https://www.calumjackson.co.uk/reading/whatamilearninginspark/" title="Spark Learnings" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		
+	
+    </div>
+
+    </section>
+
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="https://www.calumjackson.co.uk/js/clipboard.min.js?1662964777"></script>
+    <script src="https://www.calumjackson.co.uk/js/perfect-scrollbar.min.js?1662964777"></script>
+    <script src="https://www.calumjackson.co.uk/js/perfect-scrollbar.jquery.min.js?1662964777"></script>
+    <script src="https://www.calumjackson.co.uk/js/jquery.sticky.js?1662964777"></script>
+    <script src="https://www.calumjackson.co.uk/js/featherlight.min.js?1662964777"></script>
+    <script src="https://www.calumjackson.co.uk/js/highlight.pack.js?1662964777"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="https://www.calumjackson.co.uk/js/modernizr.custom-3.6.0.js?1662964777"></script>
+    <script src="https://www.calumjackson.co.uk/js/learn.js?1662964777"></script>
+    <script src="https://www.calumjackson.co.uk/js/hugo-learn.js?1662964777"></script>
+    
+        
+            <script src="https://www.calumjackson.co.uk/mermaid/mermaid.js?1662964777"></script>
+        
+        <script>
+            mermaid.initialize({ startOnLoad: true });
+        </script>
+    
+    
+
+  </body>
+</html>
+
